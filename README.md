@@ -14,4 +14,5 @@ JointsWP http://jointswp.com/
 ## ABOUT
 
 Standards: HTML5, CSS3
-Components: jQuery CMS: WordPress
+Components: jQuery, Foundation
+CMS: WordPress
