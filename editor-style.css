@@ -1,0 +1,227 @@
+
+
+.small-1,
+.medium-1,
+.large-1,
+.small-2,
+.medium-2,
+.large-2,
+.small-3,
+.medium-3,
+.large-3,
+.small-4,
+.medium-4,
+.large-4,
+.small-5,
+.medium-5,
+.large-5,
+.small-6,
+.medium-6,
+.large-6,
+.small-7,
+.medium-7,
+.large-7,
+.small-8,
+.medium-8,
+.large-8,
+.small-9,
+.medium-9,
+.large-9,
+.small-10,
+.medium-10,
+.large-10,
+.small-11,
+.medium-11,
+.large-11,
+.small-12,
+.medium-12,
+.large-12 {
+	background: #fafaf5;
+	border: 1px dashed #dedecf;
+	padding: 0 1em;
+	margin:.5em;
+}
+
+.small-1:before,
+.medium-1:before,
+.large-1:before,
+.small-2:before,
+.medium-2:before,
+.large-2:before,
+.small-3:before,
+.medium-3:before,
+.large-3:before,
+.small-4:before,
+.medium-4:before,
+.large-4:before,
+.small-5:before,
+.medium-5:before,
+.large-5:before,
+.small-6:before,
+.medium-6:before,
+.large-6:before,
+.small-7:before,
+.medium-7:before,
+.large-7:before,
+.small-8:before,
+.medium-8:before,
+.large-8:before,
+.small-9:before,
+.medium-9:before,
+.large-9:before,
+.small-10:before,
+.medium-10:before,
+.large-10:before,
+.small-11:before,
+.medium-11:before,
+.large-11:before,
+.small-12:before,
+.medium-12:before,
+.large-12:before {
+	font-size: xx-small;
+	color:#b9b9af;
+}
+
+
+
+.small-1:before {
+	content: "Small 1";
+}
+.medium-1:before {
+	content: "Medium 1";
+}
+.large-1:before {
+	content: "Large 1";
+}
+
+
+
+.small-2:before {
+	content: "Small 2";
+}
+.medium-2:before {
+	content: "Medium 2";
+}
+.large-2:before {
+	content: "Large 2";
+}
+
+
+
+.small-3:before {
+	content: "Small 3";
+}
+.medium-3:before {
+	content: "Medium 3";
+}
+.large-3:before {
+	content: "Large 3";
+}
+
+
+
+.small-4:before {
+	content: "Small 4";
+}
+.medium-4:before {
+	content: "Medium 4";
+}
+.large-4:before {
+	content: "Large 4";
+}
+
+
+
+.small-5:before {
+	content: "Small 5";
+}
+.medium-5:before {
+	content: "Medium 5";
+}
+.large-5:before {
+	content: "Large 5";
+}
+
+
+
+.small-6:before {
+	content: "Small 6";
+}
+.medium-6:before {
+	content: "Medium 6";
+}
+.large-6:before {
+	content: "Large 6";
+}
+
+
+
+.small-7:before {
+	content: "Small 7";
+}
+.medium-7:before {
+	content: "Medium 7";
+}
+.large-7:before {
+	content: "Large 7";
+}
+
+
+
+.small-8:before {
+	content: "Small 8";
+}
+.medium-8:before {
+	content: "Medium 8";
+}
+.large-8:before {
+	content: "Large 8";
+}
+
+
+
+.small-9:before {
+	content: "Small 9";
+}
+.medium-9:before {
+	content: "Medium 9";
+}
+.large-9:before {
+	content: "Large 9";
+}
+
+
+
+.small-10:before {
+	content: "Small 10";
+}
+.medium-10:before {
+	content: "Medium 10";
+}
+.large-10:before {
+	content: "Large 10";
+}
+
+
+
+.small-11:before {
+	content: "Small 11";
+}
+.medium-11:before {
+	content: "Medium 11";
+}
+.large-11:before {
+	content: "Large 11";
+}
+
+
+
+.small-12:before {
+	content: "Small 12";
+}
+.medium-12:before {
+	content: "Medium 12";
+}
+.large-12:before {
+	content: "Large 12";
+}
