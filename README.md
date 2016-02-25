@@ -9,7 +9,7 @@ Twitter: @alectro
 ## THANKS
 
 **ZURB Foundation**:http://foundation.zurb.com  
-**Reverie Framework**: http://themefortress.com/yanse  
+**Reverie Framework**: http://themefortress.com/reverie  
 **JointsWP**: http://jointswp.com
 
 ## ABOUT
