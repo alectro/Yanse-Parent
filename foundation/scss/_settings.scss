@@ -92,6 +92,9 @@ $grid-column-responsive-gutter: (
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
+.grid {
+  background-color: $light-gray;
+}
 
 // 4. Base Typography
 // ------------------
