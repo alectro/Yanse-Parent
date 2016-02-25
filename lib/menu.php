@@ -10,8 +10,10 @@
 
  add_theme_support( 'menus' );
  register_nav_menus(array(
- 	'top-menu' => __('Top Menu' , 'yanse' ),
- 	)
+     'primary' => __('Primary Navigation', 'yanse'),
+     'additional' => __('Additional Navigation', 'yanse'),
+     'footer' => __('Footer Navigation', 'yanse')
+   )
  );
 
  }

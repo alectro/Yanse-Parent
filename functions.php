@@ -52,23 +52,6 @@ function yanse_theme_support() {	// Change names for your convinience
  */
  	add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video' , 'audio', 'chat' ) );
 
-
-/**
- *	Menus
- * 	@since	Wordpress 3.1
- *	@since	yanse 0.1
- *	Source:	Wordpress Codex ( http://codex.wordpress.org/Function_Reference/register_nav_menus )
- *
- */
-
-    add_theme_support('menus');
-    register_nav_menus(array(
-        'primary' => __('Primary Navigation', 'yanse'),
-        'additional' => __('Additional Navigation', 'yanse'),
-        'footer' => __('Footer Navigation', 'yanse')
-	    )
-	);
-
 /**
  *	Sidebars and Widgets
  * 	@since	Wordpress 3.1
