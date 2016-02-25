@@ -1,5 +1,5 @@
 # Yanse
-YANSE is a responsive WordPress framework based on ZURB's Foundation.
+YANSE is a responsive WordPress starter Theme based on ZURB's Foundation 6.
 
 ## AUTHOR
 
@@ -15,5 +15,5 @@ Twitter: @alectro
 ## ABOUT
 
 **Standards**: HTML5, CSS3  
-**Components**: jQuery, Foundation  
+**Components**: jQuery, Foundation 6
 **CMS**: WordPress
