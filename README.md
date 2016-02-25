@@ -1,6 +1,6 @@
 # Yanse
 YANSE is a responsive WordPress starter Theme based on ZURB's Foundation 6.
-
+**Demo**: http://yanse.colorale.com
 ## AUTHOR
 
 Ale Urrutia http://www.colorale.com  
