@@ -330,7 +330,6 @@ function optionsframework_options() {
 	$options[] = array( "name" => "Baidu",
 						"desc" => "Place your <a href=\"http://union.baidu.com\">Baidu</a> verifying code (E.g.: jwqfyxAYVhlYBpAW) here.",
 						"id" => "baidu-site-verification",
-						"std" => "jwqfyxAYVhlYBpAW",
 						"type" => "text");
 
 	$options[] = array( "name" => "Alexa Page Rank",
