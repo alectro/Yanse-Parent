@@ -46,6 +46,7 @@
 <body <?php body_class('antialiased'); ?> style='background:<?php $workscolor = rwmb_meta("mb_color"); if (isset($workscolor[0])) { echo __($workscolor, 'yanse'); } ?>'>
 
 <header class="contain-to-grid clearfix">
+
 	<div class="title-bar" data-responsive-toggle="responsivehide" data-hide-for="medium">
 	  <button class="menu-icon" type="button" data-toggle></button>
 	  <div class="title-bar-title">
@@ -54,29 +55,10 @@
 			</a>
 		</div>
 	</div>
-
-
-
-	<nav class="top-bar" id="responsivehide">
-	<!--		<ul class="dropdown menu" data-dropdown-menu>
-		  <li>
-		    <a href="#">One</a>
-		    <ul class="nested vertical menu">
-		      <li><a href="#">One</a></li>
-		      <li><a href="#">Two</a></li>
-		      <li><a href="#">Three</a></li>
-		      <li><a href="#">Four</a></li>
-		    </ul>
-		  </li>
-		  <li><a href="#">Two</a></li>
-		  <li><a href="#">Three</a></li>
-		  <li><a href="#">Four</a></li>
-		</ul>	-->
-
-
-
+	<nav class="top-bar " id="responsivehide">
 		<div class="row">
-			<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown" >
+
+		  <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
 				<li role="menuitem" class="divider"></li>
 				<li  aria-label="Home" aria-expanded="false" aria-haspopup="true" role="menuitem" id="menu-item-0" class="menu-item menu-item-main-menu hide-for-small-only">
 					<a href="<?php echo home_url(''); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home">
@@ -99,7 +81,6 @@
 			); ?>
 			</ul>
 		</div>
-
 	</nav>
 </header>
 
