@@ -4,3 +4,9 @@
 .row {
   margin-top: 2em;
 }
+.breadcrumbs .current {
+  margin: $breadcrumbs-margin;
+  font-size: $breadcrumbs-item-font-size;
+  text-transform: uppercase;
+  float: left;
+}
