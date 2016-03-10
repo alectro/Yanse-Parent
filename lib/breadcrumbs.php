@@ -56,7 +56,7 @@ function yanse_breadcrumbs() {
       } else {
         $cat = get_the_category(); $cat = $cat[0];
         echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
-        if ($showCurrent == 1) echo $before . get_the_title() . $after;
+        if ($showCurrent == 1) echo $after . '/' . get_the_title();
       }
 
     } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
