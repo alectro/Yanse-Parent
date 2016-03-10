@@ -173,13 +173,11 @@ function optionsframework_options() {
 
 	$options[] = array( "name" => "Weibo",
 						"id" => "weibo_url",
-						"std" => "coloraledesign",
 						"class" => "small grouped",
 						"type" => "text");
 
 	$options[] = array( "name" => "Weixin",
 						"id" => "weixin_url",
-						"std" => "coloraledesign",
 						"class" => "small grouped",
 						"type" => "text");
 
@@ -196,14 +194,32 @@ function optionsframework_options() {
 
 
 	/*	Logo	*/
-	$options[] = array( "name" => "Logo" ,
+	$options[] = array( "name" => "Logo",
 						"type" => "heading");
 
 	$options[] = array( "name" => "Website's main logo",
-						"desc" => "Upload a logo and basic position.",
+						"desc" => "Upload a logo for Tablet and Desktop.",
 						"id" => "main_logo",
 						"std" => $imagepath . 'branding/logo.png',
 						"type" => "upload");
+
+	$options[] = array( "name" => "Website's mobile logo",
+						"desc" => "Upload a logo for mobile.",
+						"id" => "main_logo_mobile",
+						"std" => $imagepath . 'branding/logo-mobile.png',
+						"type" => "upload");
+
+	$options[] = array( "name" => "Logo width",
+						"id" => "main_logo_width",
+						"std" => "90",
+						"class" => "mini grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Logo height",
+						"id" => "main_logo_heigth",
+						"std" => "34",
+						"class" => "mini grouped",
+						"type" => "text");
 
 	/*	Branding	*/
 	$options[] = array( "name" => "Branding",
