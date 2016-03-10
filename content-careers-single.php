@@ -14,12 +14,12 @@
 					<?php if (function_exists('yanse_breadcrumbs')) yanse_breadcrumbs(); ?>
 				</nav>
 	</header><!-- .entry-header -->
-	
+
 	<div class="entry-content">
 
 
-<div id="job-details">	
-<div class="col-left">	
+<div id="job-details">
+<div class="col-left">
 	<?php
 	//	Job ID
 		$jodid = rwmb_meta("mb_id");
@@ -27,9 +27,9 @@
 			  echo "<p><strong>" . __('Job ID: ', 'yanse') . "</strong> " . $jodid . "</p>";
 			}
 	?>
-	
-	<p><strong><?php _e('Date: ', 'yanse'); ?></strong><?php if (ICL_LANGUAGE_CODE == 'zh-hans') { the_time('Y年m月d日'); } else { the_time('F d, Y'); } ?></p>
-	  	  			
+
+	<p><strong><?php _e('Date: ', 'yanse'); ?></strong><?php the_time('F d, Y'); ?></p>
+
 	<?php
 	//	Location
 		$joblocation = rwmb_meta("mb_location");
@@ -37,7 +37,7 @@
 			  echo "<p><strong>" . __('Location: ', 'yanse') . "</strong> " . __($joblocation, 'yanse') . "</p>";
 			}
 	?>
-	
+
 	<?php
 	//	Period
 		$jobperiod_start = rwmb_meta("mb_period_start");
@@ -45,10 +45,10 @@
 			if (isset($jobperiod_start[0]) or isset($jobperiod_end[0])) {
 			  echo "<p><strong>" . __('Period: ', 'yanse') . "</strong> " . $jobperiod_start . " ~ " . $jobperiod_end . "</p>";
 			}
-	?>	
-</div>		
-<div class="col-right">	
-	
+	?>
+</div>
+<div class="col-right">
+
 	<?php
 	//	Type
 	    $jobtype = rwmb_meta( 'mb_type', 'type=checkbox_list' );
@@ -56,26 +56,26 @@
 			//echo "<p><strong>" . __('Type:', 'yanse') . "</strong> " . implode( ' / ', $jobtype ) . "</p>";
 			echo '<p><strong>' . __('Type: ', 'yanse') . '</strong> ' . implode(' / ', array_map(function($jt) {return __($jt,'yanse');},$jobtype)) . '</p>';
 		}
-	
-	?>
-	
-	
-	
 
-	
+	?>
+
+
+
+
+
 	<?php
 	//	Language
 	    $joblanguages = rwmb_meta( 'mb_language', 'type=checkbox_list' );
 	    if (isset($joblanguages[0])) {
-			
+
 		//echo "<p><strong>" . __('Languages:', 'yanse') . "</strong> " . implode( ', ', $joblanguages ) . "</p>";
 		echo '<p><strong>' . __('Languages: ', 'yanse') . '</strong> ' . implode(__(', ', 'yanse'), array_map(function($jl) {return __($jl,'yanse');},$joblanguages)) . '</p>';
-	
+
 		}
-	
-	
+
+
 	?>
-	
+
 	<?php
 	//	Education
 	    $jobeducation = rwmb_meta( 'mb_education', 'type=checkbox_list' );
@@ -83,18 +83,18 @@
 			//echo "<p><strong>" . __('Education Level:', 'yanse') . "</strong> " . $jobeducation . "</p>";
 			echo '<p><strong>' . __('Education Level: ', 'yanse') . '</strong> ' . implode(__(', ', 'yanse'), array_map(function($je) {return __($je,'yanse');},$jobeducation)) . '</p>';
 		}
-	
+
 	?>
-	
+
 	<?php
 	//	Open Positions
 	    $jobvacancies = rwmb_meta( 'mb_vacancies');
 	    if (isset($jobvacancies[0])) {
 			  echo "<p><strong>" . __('Open Positions: ', 'yanse') . "</strong> " . $jobvacancies . "</p>";
 		}
-	
+
 	?>
-</div>	
+</div>
 </div>
 <?php _e('<h3>Job Description:</h3> ', 'yanse'); ?>
 <?php the_content(); ?>
@@ -122,17 +122,18 @@ aaa
     $jobskills = get_post_meta( get_the_ID(), 'mb_skills', true );
 
     if (isset($jobskills[0])) {
-    	
+
 		echo "<h3>" . __('Skills: ', 'yanse') . "</h3>";
 		    foreach ( $jobskills as $meta )
 		    {
 		    echo '<div class="skills">' . $meta . '</div>';
 		    }
-	}	
+	}
 ?>
-<div class="large-12 columns">
-	<a href="mailto:<?php echo antispambot('nihao@colorale.com', 1); ?>?subject=<?php _e('Apply for ', 'yanse') . the_title(); ?>" class="button tiny"><?php _e('Apply', 'yanse'); ?>
-</a>
+
+	<a href="mailto:<?php echo antispambot('nihao@colorale.com', 1); ?>?subject=<?php _e('Apply for ', 'yanse') . the_title(); ?>" class="button tiny">
+		<?php _e('Apply', 'yanse'); ?>
+	</a>
 
 </div>
 
@@ -140,8 +141,8 @@ aaa
 <div class="apply-button">
 	<?php
 	    $content = "nihao@colorale.com";
-	    
-	    
+
+
 	    $args = array(		'text' => __('Apply', 'yanse'),
 	                        'css_class' => '',
 	                        'css_id' => '',

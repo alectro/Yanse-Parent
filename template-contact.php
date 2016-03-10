@@ -73,20 +73,25 @@ if(isset($_POST['submitted'])) {
 <?php if(isset($emailSent) && $emailSent == true) { ?>
 
 	<div class="thanks">
-		<h1>Thanks, <?=$name;?></h1>
-		<p>Your email was successfully sent. I will be in touch soon.</p>
+		<div class="row">
+			<div class="large-12 columns">
+				<h1>Thanks, <?=$name;?></h1>
+				<p>Your email was successfully sent. I will be in touch soon.</p>
+			</div><!-- columns end -->
+		</div><!-- row end -->
 	</div>
 
 <?php } else { ?>
 
 			<div id="content" role="main">
+				<div class="row">
+					<?php the_post(); ?>
 
-				<?php the_post(); ?>
+					<?php get_template_part( 'content', 'contact' ); ?>
 
-				<?php get_template_part( 'content', 'contact' ); ?>
+					<?php /*comments_template( '', true );*/ ?>
 
-				<?php /*comments_template( '', true );*/ ?>
-
+				</div><!-- row end -->
 			</div><!-- #content -->
 
 

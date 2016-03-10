@@ -10,13 +10,13 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+					<div class="row">
+						
+						<?php while ( have_posts() ) : the_post(); ?>
+							<?php get_template_part( 'content', 'single' ); ?>
+						<?php endwhile; // end of the loop. ?>
 
-				<?php get_template_part( 'content', 'single' ); ?>
-
-
-			<?php endwhile; // end of the loop. ?>
-
+					</div><!-- row end -->
 			</div><!-- #content -->
 		</div><!-- #primary -->
 <?php get_footer(); ?>

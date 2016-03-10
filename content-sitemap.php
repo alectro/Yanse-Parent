@@ -8,7 +8,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<header class="entry-header">
+		<header class="large-12 columns">
 			<div id="featured-header">
 				<?php if ( has_post_thumbnail() ) {
 							the_post_thumbnail();
@@ -20,33 +20,29 @@
 				</nav>
 		</header><!-- .entry-header -->
 
-
-	<div class="entry-content" class="row">
-		<div class="row">
 			<div class="large-12 columns">
 				<?php the_content(); ?>
 				<?php /*get_search_form();*/ ?>
-				
-			</div><!-- span_12 -->
 
-		</div><!-- row -->
-		<div class="row sitemap">
-			
-			<!-- Pages -->			
+			</div>
+
+
+
+			<!-- Pages -->
 			<div class="large-4 columns">
 				<h3><?php _e('Pages', 'yanse'); ?></h3>
 				<ul>
 				  <?php wp_list_pages('title_li'); ?>
 				</ul>
-			</div><!-- span_3 -->
+			</div>
 
 			<!-- Works -->
 			<div class="large-4 columns">
-				
+
 				<h3><?php _e('Works', 'yanse'); ?></h3>
 				<ul>
 					<?php
-						$additional_loop = new WP_Query("cat=0&paged=$paged&posts_per_page=0&post_type=works"); 
+						$additional_loop = new WP_Query("cat=0&paged=$paged&posts_per_page=0&post_type=works");
 						while ($additional_loop->have_posts()) : $additional_loop->the_post();
 					?>
 					<!-- Show loop content... -->
@@ -55,16 +51,14 @@
 					    </li>
 					<?php endwhile; ?>
 				</ul>
-			</div><!-- span_3 -->
-			
+			</div>
+
 			<!-- Posts -->
 			<div class="large-4 columns">
 				<h3><?php _e('Blog', 'yanse'); ?></h3>
 				<ul>
 				    <?php wp_get_archives('title_li=&type=postbypost'); ?>
-				</ul>	
-			</div><!-- span_3 -->
-			
-		</div><!-- row -->
-	</div><!-- entry-content -->
+				</ul>
+			</div>
+
 </article><!-- #post-<?php the_ID(); ?> -->

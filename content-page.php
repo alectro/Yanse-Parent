@@ -13,8 +13,8 @@
 					<?php if (function_exists('yanse_breadcrumbs')) yanse_breadcrumbs(); ?>
 				</nav>
 		</header><!-- .entry-header -->
-	
-		<div class="large-12 columns entry-content">
+
+		<div>
 			<?php the_content(); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'yanse' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->

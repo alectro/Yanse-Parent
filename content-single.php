@@ -4,9 +4,8 @@
  */
 ?>
 
-<div class="row">
 	<div class="large-8 columns" id="content" role="main">
-	
+
 		<?php /* Start loop */ ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
@@ -32,6 +31,3 @@
 	<?php get_sidebar(); ?>
 
 	</div>
-</div>
-
-

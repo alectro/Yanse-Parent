@@ -1,12 +1,20 @@
 .social li {
   display: inline-block;
 }
-.container .row {
-  margin-top: 2em;
+.social .button {
+  background-color: transparent;
+  color: $medium-gray;
+}
+.social .button:hover {
+  background-color: transparent;
+  color: $dark-gray;
 }
 .breadcrumbs .current {
   margin: $breadcrumbs-margin;
   font-size: $breadcrumbs-item-font-size;
   text-transform: uppercase;
   float: left;
+}
+.container {
+  margin-top: 2em;
 }

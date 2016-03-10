@@ -23,7 +23,7 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
 
-	<!--  iPhone Web App Home Screen Icon -->
+	<!--  iPhone Web App Home Screen Icon
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/apple-icon-72x72.png">
@@ -33,12 +33,12 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-icon-180x180.png">
-
-	<!-- MS -->
+	-->
+	<!-- MS
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
+	-->
 <?php wp_head(); ?>
 
 </head>
@@ -51,7 +51,7 @@
 	  <button class="menu-icon" type="button" data-toggle></button>
 	  <div class="title-bar-title">
 			<a href="<?php echo home_url(''); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home">
-				<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo'); ?>" />
+				<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo_mobile'); ?>" width="<?php echo of_get_option('main_logo_width', 'no entry'); ?>" height="<?php echo of_get_option('main_logo_heigth', 'no entry'); ?>" />
 			</a>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 				<li role="menuitem" class="divider"></li>
 				<li  aria-label="Home" aria-expanded="false" aria-haspopup="true" role="menuitem" id="menu-item-0" class="menu-item menu-item-main-menu hide-for-small-only">
 					<a href="<?php echo home_url(''); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home">
-						<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo'); ?>" />
+						<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo'); ?>" width="<?php echo of_get_option('main_logo_width', 'no entry'); ?>" height="<?php echo of_get_option('main_logo_heigth', 'no entry'); ?>" />
 					</a>
 				</li>
 
@@ -86,4 +86,3 @@
 
 <!-- Start the main container -->
 <div class="container" role="document">
-	<div class="row">

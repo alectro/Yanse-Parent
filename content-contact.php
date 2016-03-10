@@ -9,7 +9,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+
+	<header class="large-12 columns entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 				<nav class="header-nav">
 					<?php if (function_exists('yanse_breadcrumbs')) yanse_breadcrumbs(); ?>
@@ -20,8 +21,9 @@
 
 
 	<div class="entry-content">
-		<div class="row">
+			<div class="large-12 columns">
 				<?php the_content(); ?>
+			</div>
 
 			<!-- Web Form -->
 			<form action="<?php the_permalink(); ?>" id="contactForm" method="post" data-abide>
@@ -62,6 +64,5 @@
 					</form>
 
 
-			</div><!-- row -->
 	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

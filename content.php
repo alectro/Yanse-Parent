@@ -7,28 +7,32 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('index-card'); ?>>
-	<header>
-		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php yanse_entry_meta(); ?>
-	</header>
-	<div class="entry-content">
-		<figure>
-			<a href="<?php the_permalink(); ?>">
+<div class="row">
+	<article id="post-<?php the_ID(); ?>" <?php post_class('index-card'); ?>>
+		<header class="large-12 columns">
+			<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+			<?php yanse_entry_meta(); ?>
+		</header>
+
+		<?php
+		if (has_post_thumbnail()) {
+		?>
+			<div class="large-12 columns">
+				<a href="<?php the_permalink(); ?>">
+					<?php
+					$thumbs = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-small');
+					$thumbm = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-medium');
+					$thumbl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-large');
+					?>
+					<img data-interchange="[<?php echo $thumbs[0]; ?>, small],[<?php echo $thumbm[0]; ?>, medium], [<?php echo $thumbl[0]; ?>, large]" >
+				</a>
+			</div>
 
 
-				<?php
-						if (has_post_thumbnail()) {
-						$thumbs = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-small');
-						$thumbm = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-medium');
-						$thumbl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb-large');
 
-						}
-				?>
-				<img data-interchange="[<?php echo $thumbl[0]; // thumbnail url ?>, (small)],[<?php echo $thumbm[0]; // thumbnail url ?>, (medium)], [<?php echo $thumbs[0]; // thumbnail url ?>, (large)]">
-
-
-			</a>
-		</figure> <?php the_excerpt(); ?>
-	</div>
-</article>
+		<?php } ?>
+			<div class="large-12 columns">
+				<?php the_excerpt(); ?>
+			</div>
+	</article>
+</div>

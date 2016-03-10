@@ -6,7 +6,6 @@
  * @since Yanse 1.0
  */
 ?>
-<div class="row">
 	<article class="large-12 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
 					<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -48,4 +47,3 @@
 
 		</div><!-- .entry-content -->
 	</article><!-- #post-<?php the_ID(); ?> -->
-</div><!-- .row End -->

@@ -7,7 +7,6 @@
  */
 ?>
 
-<div class="row">
 	<div class="large-8 columns">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
@@ -24,7 +23,7 @@
 				<?php the_content(); ?>
 
 				<?php
-					$allarticles_loop = new WP_Query( array('cat' => '0', 'posts_per_page' => '-1','post_type' => array('post'))); 
+					$allarticles_loop = new WP_Query( array('cat' => '0', 'posts_per_page' => '-1','post_type' => array('post')));
 					while ($allarticles_loop->have_posts()) : $allarticles_loop->the_post();
 				?>
 
@@ -37,9 +36,9 @@
 
 				<div>
 										<?php if (has_post_thumbnail()) {
-											
-											the_post_thumbnail('thumb-small');	
-											
+
+											the_post_thumbnail('thumb-small');
+
 										} ?>
 				</div>
 			      <?php the_excerpt('Read the rest of this entry &raquo;'); ?>
@@ -57,5 +56,3 @@
 	<div class="large-4 columns">
 		<?php get_sidebar(); ?>
 	</div><!-- .large-4 End -->
-</div><!-- .row End -->
-

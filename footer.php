@@ -1,4 +1,5 @@
-<footer class="full-width" role="contentinfo">
+
+<footer role="contentinfo">
 
 	<div class="row">
 		<div class="small-12 columns">
@@ -13,7 +14,9 @@
 	<div class="row">
 
 		<div class="large-2 columns">
-			<p>&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			<p>&copy; <?php echo date('Y'); ?>
+				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			</p>
 		</div>
 
 		<div class="large-10 columns social">
@@ -170,9 +173,6 @@
 	</div>
 
 </footer>
-
-	</div><!-- Row End -->
-</div><!-- Container End -->
 
 <?php wp_footer(); ?>
 

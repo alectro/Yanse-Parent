@@ -9,14 +9,13 @@
 
 get_header(); ?>
 
-			<div id="content" role="main">
+	<div id="content" role="main">
+		<div class="row">
 
 				<?php while ( have_posts() ) : the_post(); ?>
-
 					<?php get_template_part( 'content', 'sitemap' ); ?>
-
 				<?php endwhile; // end of the loop. ?>
 
-			</div><!-- #content -->
-
+		</div><!-- row end -->
+	</div><!-- #content -->
 <?php get_footer(); ?>
