@@ -10,7 +10,7 @@ Twitter: @alectro
 
 ## WordPress Components
 
-**Options Framework by Devin Price** : http://wptheming.com/options-framework-theme  
+**Options Framework by Devin Price**: http://wptheming.com/options-framework-theme  
 **Metaboxes by Rilwis**: https://metabox.io  
 
 ## Thanks
