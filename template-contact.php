@@ -75,7 +75,7 @@ if(isset($_POST['submitted'])) {
 	<div class="thanks">
 		<div class="row">
 			<div class="large-12 columns">
-				<h1>Thanks, <?=$name;?></h1>
+				<h1>Thanks, <?php $name; ?></h1>
 				<p>Your email was successfully sent. I will be in touch soon.</p>
 			</div><!-- columns end -->
 		</div><!-- row end -->
