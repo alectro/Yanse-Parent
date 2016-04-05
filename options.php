@@ -1,23 +1,17 @@
 <?php
 /**
  * A unique identifier is defined to store the options in the database and reference them from the theme.
+ */
+function optionsframework_option_name() {
+	// Change this to use your theme slug
+	return 'yanse';
+/**
+ * A unique identifier is defined to store the options in the database and reference them from the theme.
  * By default it uses the theme name, in lowercase and without spaces, but this can be changed if needed.
  * If the identifier changes, it'll appear as if the options have been reset.
  *
  */
 
-function optionsframework_option_name() {
-
-	// This gets the theme name from the stylesheet (lowercase and without spaces)
-	$themename = wp_get_theme(STYLESHEETPATH . '/style.css');
-	$themename = $themename['Name'];
-	$themename = preg_replace("/\W/", "", strtolower($themename) );
-
-	$optionsframework_settings = get_option('optionsframework');
-	$optionsframework_settings['id'] = $themename;
-	update_option('optionsframework', $optionsframework_settings);
-
-	// echo $themename;
 }
 
 /**
@@ -32,7 +26,7 @@ function optionsframework_options() {
 	$body_background_defaults = array(
 	'color' => '#c9c9c9',
 	'repeat' => 'repeat',
-	'image' => get_bloginfo('stylesheet_directory') . '/images/branding/login-back.png',
+	'image' => get_stylesheet_directory_uri() . '/images/branding/login-back.png',
 	'position' => 'top center',
 	'attachment'=>'scroll');
 
@@ -42,10 +36,10 @@ function optionsframework_options() {
 	// Dashboard Widget Yes or No selector
 	$widget_yes_no = array("1" => "Yes","0" => "No");
 	// Dashboard Widget Yes or No selector
-	$widget_feed_url = array( home_url('/feed')  => "COLORALE", "http://www.theindependentproject.com/feed" => "The Independent Project");
+	$widget_feed_url = array( home_url('/feed')  => "COLORALE", "http://www.colorale.com/feed" => "Colorale");
 
 	// If using image radio buttons, define a directory path
-	$imagepath =  get_bloginfo('stylesheet_directory') . '/images/';
+	$imagepath =  get_stylesheet_directory_uri() . '/images/';
 
 	$options = array();
 

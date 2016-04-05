@@ -1,24 +1,21 @@
 <?php
 
-if ( !function_exists( 'optionsframework_init' ) ) {
+/*
+ * Loads the Options Panel
+ *
+ * If you're loading from a child theme use stylesheet_directory
+ * instead of template_directory
+ */
 
-	/*-----------------------------------------------------------------------------------*/
-	/* Options Framework Theme
-	/*-----------------------------------------------------------------------------------*/
+define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/lib/admin/options/' );
+require_once dirname( __FILE__ ) . '/admin/options/options-framework.php';
 
-	/* Set the file path based on whether the Options Framework Theme is a parent theme or child theme */
+// Loads options.php from child or parent theme
+$optionsfile = locate_template( 'options.php' );
+load_template( $optionsfile );
 
-	if ( STYLESHEETPATH == TEMPLATEPATH ) {
-		define('OPTIONS_FRAMEWORK_URL', TEMPLATEPATH . '/admin/options/');
-		define('OPTIONS_FRAMEWORK_DIRECTORY', get_bloginfo('template_directory') . '/admin/options/');
-	} else {
-		define('OPTIONS_FRAMEWORK_URL', STYLESHEETPATH . '/admin/options/');
-		define('OPTIONS_FRAMEWORK_DIRECTORY', get_bloginfo('stylesheet_directory') . '/admin/options/');
-	}
 
-	require_once (OPTIONS_FRAMEWORK_URL . 'options-framework.php');
 
-}
 /*
  * Turns off the default options panel from Twenty Eleven
 add_action('after_setup_theme','remove_twentyeleven_options', 100);
