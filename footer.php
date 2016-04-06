@@ -13,13 +13,13 @@
 
 	<div class="row">
 
-		<div class="large-2 columns">
+		<div class="small-12 large-2 columns">
 			<p>&copy; <?php echo date('Y'); ?>
 				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 			</p>
 		</div>
 
-		<div class="large-10 columns social">
+		<div class="small-12 large-10 columns social">
 			<ul>
 				<?php if ( of_get_option('rss_url') ) { ?>
 					<!-- RSS -->
