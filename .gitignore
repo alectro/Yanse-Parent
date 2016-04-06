@@ -1,4 +1,5 @@
-
-
 images/branding/cover.sketch
 foundation
+.DS_Store
+Thumbs.db
+*.DS_Store
