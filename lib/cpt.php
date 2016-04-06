@@ -8,10 +8,10 @@
 // Works
 
 
-if ( ! function_exists('works_register_post_type') ) {
+if ( ! function_exists('works_register_cpt') ) {
 
 // Register Custom Post Type
-function works_register_post_type() {
+function works_register_cpt() {
 
 	$labels = array(
 		'name'                => _x( 'Works', 'Post Type General Name', 'yanse' ),
@@ -53,7 +53,7 @@ function works_register_post_type() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'works_register_post_type', 0 );
+add_action( 'init', 'works_register_cpt', 0 );
 
 }
 
@@ -61,10 +61,10 @@ add_action( 'init', 'works_register_post_type', 0 );
 // Careers
 
 
-if ( ! function_exists('careers_register_post_type') ) {
+if ( ! function_exists('careers_register_cpt') ) {
 
 // Register Custom Post Type
-function careers_register_post_type() {
+function careers_register_cpt() {
 
 	$labels = array(
 		'name'                => _x( 'Careers', 'Post Type General Name', 'yanse' ),
@@ -106,7 +106,7 @@ function careers_register_post_type() {
 }
 
 // Hook into the 'init' action
-add_action( 'init', 'careers_register_post_type', 0 );
+add_action( 'init', 'careers_register_cpt', 0 );
 
 }
 
