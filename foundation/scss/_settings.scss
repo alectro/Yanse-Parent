@@ -98,6 +98,9 @@ $grid-column-gutter: (
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
+.container {
+  margin-top: 2em;
+}
 
 // 4. Base Typography
 // ------------------
@@ -230,6 +233,12 @@ $breadcrumbs-item-margin: 0.75rem;
 $breadcrumbs-item-uppercase: true;
 $breadcrumbs-item-slash: true;
 
+.breadcrumbs .current {
+  margin: $breadcrumbs-margin;
+  font-size: $breadcrumbs-item-font-size;
+  text-transform: uppercase;
+  float: left;
+}
 // 11. Button
 // ----------
 
@@ -421,6 +430,10 @@ $orbit-control-background-hover: rgba($black, 0.5);
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
 
+.orbit-container {
+    height: auto !important; // Responsive fix
+}
+
 // 26. Pagination
 // --------------
 
@@ -564,3 +577,6 @@ $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
+.top-bar, .top-bar ul {
+    width: 100%; // dropdown responsive fix
+}
