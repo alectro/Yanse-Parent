@@ -169,6 +169,9 @@ $keystroke-background: $light-gray;
 $keystroke-padding: rem-calc(2 4 0);
 $keystroke-radius: $global-radius;
 $abbr-underline: 1px dotted $black;
+#sidebar ul {
+  margin-left: 0;
+}
 
 // 5. Typography Helpers
 // ---------------------
