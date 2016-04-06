@@ -71,7 +71,17 @@ function yanse_theme_support() {	// Change names for your convinience
   //	Post Formats
   add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video' , 'audio', 'chat' ) );
 
+  function yanse_post_formats( $template ) {
+      if ( is_single() && has_post_format() ) {
+          $post_format_template = locate_template( 'single-' . get_post_format() . '.php' );
+          if ( $post_format_template ) {
+              $template = $post_format_template;
+          }
+      }
 
+      return $template;
+  }
+  add_filter( 'template_include', 'yanse_post_formats' );
 
 
 
