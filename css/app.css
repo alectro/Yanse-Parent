@@ -5,7 +5,7 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-@import url(../foundation/fonts/foundation-icons.css);
+@import url(../fonts/foundation-icons.css);
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;
@@ -461,8 +461,8 @@
 /* Wordpress classes */
 @font-face {
   font-family: "foundation-icons";
-  src: url("../foundation/fonts/foundation-icons.eot");
-  src: url("../foundation/fonts/foundation-icons.eot?#iefix") format("embedded-opentype"), url("../foundation/fonts/foundation-icons.woff") format("woff"), url("../foundation/fonts/foundation-icons.ttf") format("truetype"), url("../foundation/fonts/foundation-icons.svg#fontcustom") format("svg");
+  src: url("../fonts/foundation-icons.eot");
+  src: url("../fonts/foundation-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/foundation-icons.woff") format("woff"), url("../fonts/foundation-icons.ttf") format("truetype"), url("../fonts/foundation-icons.svg#fontcustom") format("svg");
   font-weight: normal;
   font-style: normal; }
 i {
