@@ -1,11 +1,26 @@
 @charset "UTF-8";
+@import url(../fonts/foundation-icons.css);
+.container {
+  margin-top: 2em; }
+
+.breadcrumbs .current {
+  margin: 0 0 1rem 0;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  float: left; }
+
+.orbit-container {
+  height: auto !important; }
+
+.top-bar, .top-bar ul {
+  width: 100%; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.0
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-@import url(../fonts/foundation-icons.css);
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;
@@ -417,21 +432,6 @@
 .long-delay {
   animation-delay: 700ms !important; }
 
-.reveal-modal,
-.reveal-modal-bg {
-  position: fixed;
-  overflow: scroll; }
-
-.orbit-container {
-  height: auto !important; }
-
-.top-bar, .top-bar ul {
-  width: 100%; }
-
-.row {
-  display: inherit; }
-
-/* Grid styles */
 .row.display {
   background: #eee;
   font-size: 11px;
@@ -455,21 +455,127 @@
   background-color: transparent;
   color: #8a8a8a; }
 
-.breadcrumbs .current {
-  margin: 0 0 1rem 0;
-  font-size: 0.6875rem;
-  text-transform: uppercase;
-  float: left; }
+/* Required */
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0; }
 
-.container {
-  margin-top: 2em; }
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
 
- /*
-.submenu li {
-  margin-left: 1em;
-  border-bottom: 1px solid $dark-gray;
-}*/
-/* Wordpress classes */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+a img.alignnone {
+  margin: 5px 20px 20px 0; }
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center; }
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px; }
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto; }
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
+
+.bypostauthor {
+  margin-top: 1em; }
+
+.gallery-caption {
+  display: inherit; }
+
+/* Default Body classes */
+/*
+.paged-(page number) {}
+.single-paged-(page number) {}
+.page-paged-(page number) {}
+.category-paged-(page number) {}
+.tag-paged-(page number) {}
+.date-paged-(page number) {}
+.author-paged-(page number) {}
+.search-paged-(page number) {}
+*/
+/* Post styles */
+/* Menu */
+/* Widgets */
+.widget ul li {
+  list-style: none; }
+
+/* Comment Output */
+.commentlist li ul.children li {
+  list-style: none; }
+
+/*Comment Form */
 @font-face {
   font-family: "foundation-icons";
   src: url("../fonts/foundation-icons.eot");
