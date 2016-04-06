@@ -65,15 +65,17 @@ add_action('wp_head', 'add_bingwebmaster');
  *	Source:	emrahgunduz ( http://bit.ly/zYmXky )
  *
  */
+
+
 function eg_create_sitemap() {
 
 	if ( of_get_option('sitemap_xml') ) {
 
 	  $postsForSitemap = get_posts(array(
 	    'numberposts' => -1,
-	    'orderby' => 'modified',
-	    'post_type'  => array('post','page'),
-	    'order'    => 'DESC'
+	    'orderby'		=> 'modified',
+			'post_type' => array('post', 'page', 'works', 'careers'),
+	    'order'			=> 'DESC'
 	  ));
 
 	  $sitemap = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -99,8 +101,10 @@ function eg_create_sitemap() {
 
 	}
 }
-add_action("publish_post", "eg_create_sitemap");
-add_action("publish_page", "eg_create_sitemap");
+add_action('publish_post', 'eg_create_sitemap');
+add_action('publish_page', 'eg_create_sitemap');
+add_action('publish_works', 'eg_create_sitemap');
+add_action('publish_careers', 'eg_create_sitemap');
 
 
 ?>
