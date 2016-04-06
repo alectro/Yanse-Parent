@@ -139,6 +139,42 @@
 	        </li>
 	      <?php } ?>
 
+				<?php if ( of_get_option('500px_url') ) { ?>
+					<!-- 500px -->
+	        <li>
+						<a class="tiny button" href="<?php echo of_get_option('500px_url', 'no entry'); ?>" title="<?php _e( 'Follow ' . get_bloginfo( 'name', 'display' ) . ' on 500px', 'yanse' ); ?>" target="_blank">
+							<i class="fi-social-500px"></i>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('github_url') ) { ?>
+					<!-- Github -->
+	        <li>
+						<a class="tiny button" href="<?php echo of_get_option('github_url', 'no entry'); ?>" title="<?php _e( 'Follow ' . get_bloginfo( 'name', 'display' ) . ' on Github', 'yanse' ); ?>" target="_blank">
+							<i class="fi-social-github"></i>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('bitbucket_url') ) { ?>
+					<!-- Bitbucket -->
+	        <li>
+						<a class="tiny button" href="<?php echo of_get_option('bitbucket_url', 'no entry'); ?>" title="<?php _e( 'Follow ' . get_bloginfo( 'name', 'display' ) . ' on Bitbucket', 'yanse' ); ?>" target="_blank">
+							<i class="fi-asterisk"></i>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('stackoverflow_url') ) { ?>
+					<!-- Bitbucket -->
+	        <li>
+						<a class="tiny button" href="<?php echo of_get_option('stackoverflow_url', 'no entry'); ?>" title="<?php _e( 'Follow ' . get_bloginfo( 'name', 'display' ) . ' on Stack Overflow', 'yanse' ); ?>" target="_blank">
+							<i class="fi-social-stack-overflow"></i>
+						</a>
+	        </li>
+	      <?php } ?>
+
 				<?php if ( of_get_option('youtube_url') ) { ?>
 					<!-- Youtube -->
 	        <li>

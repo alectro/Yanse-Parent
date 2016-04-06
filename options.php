@@ -155,6 +155,26 @@ function optionsframework_options() {
 						"class" => "small grouped",
 						"type" => "text");
 
+	$options[] = array( "name" => "500px",
+						"id" => "500px_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Github",
+						"id" => "github_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Bitbucket",
+						"id" => "bitbucket_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Stack Overflow",
+						"id" => "stackoverflow_url",
+						"class" => "small grouped",
+						"type" => "text");
+
 	$options[] = array( "name" => "Youtube",
 						"id" => "youtube_url",
 						"class" => "small grouped",
