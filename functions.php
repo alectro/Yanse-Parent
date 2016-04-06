@@ -22,7 +22,7 @@ require_once('lib/welcome.php');
 
 require_once('lib/seo.php');
 
-//require_once('lib/wysiwyg.php');
+require_once('lib/wysiwyg.php');
 
 /**********************
 Add theme supports
