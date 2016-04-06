@@ -417,6 +417,17 @@
 .long-delay {
   animation-delay: 700ms !important; }
 
+.reveal-modal,
+.reveal-modal-bg {
+  position: fixed;
+  overflow: scroll; }
+
+.orbit-container {
+  height: auto !important; }
+
+.top-bar, .top-bar ul {
+  width: 100%; }
+
 .row {
   display: inherit; }
 
