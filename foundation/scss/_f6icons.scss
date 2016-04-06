@@ -1,4 +1,4 @@
-$font-path: "../foundation/fonts/foundation-icons";
+$font-path: "../fonts/foundation-icons";
 @font-face {
   font-family: "foundation-icons";
   src: url("#{$font-path}.eot");
@@ -10,7 +10,7 @@ $font-path: "../foundation/fonts/foundation-icons";
   font-style: normal;
 }
 
-@import "../foundation/fonts/foundation-icons.css";
+@import "../fonts/foundation-icons.css";
 
 i {
   font-size: 1.5em;

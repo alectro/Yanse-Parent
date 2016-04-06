@@ -3,7 +3,7 @@
 
 @import 'settings';
 @import 'foundation';
-//@import 'motion-ui';
+@import 'motion-ui';
 @import 'styles';
 @import 'f6icons';
 
@@ -50,5 +50,5 @@
 @include foundation-float-classes;
 @include foundation-flex-classes;
 
-//@include motion-ui-transitions;
-//@include motion-ui-animations;
+@include motion-ui-transitions;
+@include motion-ui-animations;
