@@ -1,0 +1,80 @@
+.reveal-modal,
+.reveal-modal-bg {
+        position: fixed;
+        overflow: scroll;
+}
+.orbit-container {
+    height: auto !important;
+}
+.top-bar, .top-bar ul {
+    width: 100%;
+}
+.row {
+  display:inherit; // override flex
+}
+/* Grid styles */
+.row.display {
+  background: #eee;
+  font-size: 11px;
+  margin-bottom: 10px;
+  line-height: 2rem;
+  border: solid 1px #c6c6c6;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.row.display .columns:nth-child(2), .row.display .columns.small-centered, .row.display .columns.large-centered {
+    background: #e1e1e1;
+}
+
+.social li {
+  display: inline-block;
+}
+.social .button {
+  background-color: transparent;
+  color: $medium-gray;
+}
+.social .button:hover {
+  background-color: transparent;
+  color: $dark-gray;
+}
+.breadcrumbs .current {
+  margin: $breadcrumbs-margin;
+  font-size: $breadcrumbs-item-font-size;
+  text-transform: uppercase;
+  float: left;
+}
+.container {
+  margin-top: 2em;
+}/*
+.submenu li {
+  margin-left: 1em;
+  border-bottom: 1px solid $dark-gray;
+}*/
+
+
+/* Wordpress classes */
+
+.wp-caption {
+
+}
+.wp-caption-text {
+
+}
+.screen-reader-text {
+
+}
+.gallery-caption {
+
+}
+.bypostauthor {
+
+}
+.alignright {
+
+}
+.alignleft {
+
+}
+.aligncenter {
+
+}
