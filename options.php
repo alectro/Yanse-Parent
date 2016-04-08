@@ -24,7 +24,7 @@ function optionsframework_options() {
 
 	// Background Defaults
 	$body_background_defaults = array(
-	'color' => '#c9c9c9',
+	'color' => '#f5f5f5',
 	'repeat' => 'repeat',
 	'image' => get_stylesheet_directory_uri() . '/images/branding/login-back.png',
 	'position' => 'top center',

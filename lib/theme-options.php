@@ -134,7 +134,6 @@ input {
 	border: none;
 	text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
 	background-color: '.of_get_option('submit_back').' !important;
-	padding: 8px 10px;
 	width: auto;
 }
 #wp-submit:hover {
