@@ -14,7 +14,9 @@ require_once('lib/menu.php');
 
 require_once('lib/theme-options.php');
 
-require_once('lib/metaboxes.php');
+require get_template_directory() . '/lib/admin/meta-box/meta-box.php'; // Path to the plugin's main file
+
+require_once('lib/metaboxes.php'); //Copy again on CHild Theme
 
 require_once('lib/cpt.php');
 
