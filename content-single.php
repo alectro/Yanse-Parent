@@ -4,7 +4,7 @@
  */
 ?>
 
-	<div class="large-8 columns" id="content" role="main">
+	<div class="large-9 columns" id="content" role="main">
 
 		<?php /* Start loop */ ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -27,7 +27,7 @@
 
 	</div>
 
-	<div class="large-4 columns">
+	<div class="large-3 columns">
 	<?php get_sidebar(); ?>
 
 	</div>
