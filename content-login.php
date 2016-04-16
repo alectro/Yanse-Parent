@@ -22,7 +22,7 @@
 
 			<div class="large-12 columns">
 
-				<?php global $current_user; get_currentuserinfo(); ?>
+				<?php global $current_user; wp_get_current_user(); ?>
 						<?php
 							if ( is_user_logged_in() ) {
 							 	echo '<div class="alert-box info radius">' . __( 'Welcome ', 'yanse' )  . '<a href="' . home_url('/wp-admin/profile.php') . '" title="' . __( 'Profile', 'yanse' ) . '">' . $current_user->display_name . '</a>' . ' | <span id="logout"><a href="' . wp_logout_url(home_url()) . '" title="' . __( 'Logout', 'yanse' ) . '">Logout</a></span>' . '</div>';
