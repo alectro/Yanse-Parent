@@ -15,32 +15,24 @@
 			<?php if (function_exists('yanse_breadcrumbs')) yanse_breadcrumbs(); ?>
 			</nav>
 		</header><!-- .entry-header -->
-	
+
 		<div class="entry-content">
 			<?php the_content(); ?>
-			
+
 	<?php
 		//	Images
 	$worksimages = rwmb_meta("mb_items");
-	$images = rwmb_meta( 'mb_items', 'type=image&size=thumbnail' );
-	
-	$fullimages = rwmb_meta( 'mb_items', 'type=image&size=thumbnail' );
-	foreach ( $fullimages as $k => $fimages) {
-	                      // ^ Get the index of the array
-	  echo "<li><a class='thumb' href='{$fimages['url']}'>
-	       <img src='{$images[$k]['url']}' /></a></li>";         
-	}
 	?>
-	
-	
+
+
 	<?php
 	//	Nature of client
 		$worksnature = rwmb_meta("mb_nature");
 			if (isset($worksnature[0])) {
 			  echo "<p>" . __($worksnature, 'yanse') . "</p>";
 			}
-	?>	
-	
+	?>
+
 	<?php
 	//	Year
 		$worksyear = rwmb_meta("mb_year");
@@ -48,7 +40,7 @@
 			  echo "<p>" . __($worksyear, 'yanse') . "</p>";
 			}
 	?>
-	
+
 
 	<?php
 	//	Countries
@@ -56,9 +48,9 @@
 	    if (isset($workscountries[0])) {
 				echo '<p>' . implode(__(', ', 'yanse'), array_map(function($wc) {return __($wc,'yanse');},$workscountries)) . '</p>';
 		}
-	
+
 	?>
-	
+
 
 	<?php
 	//	Clients
@@ -66,10 +58,10 @@
 	    if (isset($worksclients[0])) {
 				echo '<p>' . implode(__(', ', 'yanse'), array_map(function($wc) {return __($wc,'yanse');},$worksclients)) . '</p>';
 		}
-	
+
 	?>
-	
-	
+
+
 		</div><!-- .entry-content -->
 	</article><!-- #post-<?php the_ID(); ?> -->
 </div><!-- .row End -->
