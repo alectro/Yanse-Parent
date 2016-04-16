@@ -190,10 +190,11 @@ function optionsframework_options() {
 						"class" => "small grouped",
 						"type" => "text");
 
-	$options[] = array( "name" => "Weixin",
+	$options[] = array( "name" => "WeChat",
 						"id" => "weixin_url",
+						"desc" => "Upload your QR code here.",
 						"class" => "small grouped",
-						"type" => "text");
+						"type" => "upload");
 
 	$options[] = array( "name" => "Douban Station",
 						"class" => "normal",
