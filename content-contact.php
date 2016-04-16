@@ -31,16 +31,15 @@
 						<div class="contactform">
 
 							<div id="contact-name" class="small-12 large-6 columns">
-								<label for="contactName">Name
+								<label for="contactName"><?php _e('Name', 'yanse'); ?>
 									<input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" required="" />
 									<span class="form-error">Yo, you had better fill this out, it's required.</span>
 								</label>
 
 							</div>
 
-
 							<div id="contact-email" class="small-12 large-6 columns">
-								<label for="email">Email
+								<label for="email"><?php _e('Email', 'yanse'); ?>
 									<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>"  required="" a>
 								</label>
 
@@ -48,7 +47,7 @@
 
 
 							<div id="contact-message" class="small-12 large-12 columns">
-								<label for="commentsText">Message</label>
+								<label for="commentsText"><?php _e('Message', 'yanse'); ?></label>
 								<textarea name="comments" id="commentsText" rows="" cols="" required ><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
 							</div>
 
