@@ -14,7 +14,7 @@
 
 function get_content_in_wp_pointer() {
 	global $user_identity;
-	get_currentuserinfo();
+	wp_get_current_user();
 	$pointer_content = '<h3>Hello ' . $user_identity . ', welcome to ' . get_bloginfo('name') . '</h3>';
 	$pointer_content .= '<p>Remember that you can edit your <strong>social service accounts</strong>, your <strong>login and dashboard appearance</strong> and some other options at the <a href="' . home_url( '/' ) . 'wp-admin/themes.php?page=options-framework" title="' . get_bloginfo('name') . ' Theme Options">Theme Options</a> page at your own convinience.</p><p><small>* Once you dismiss this help pointer will never appear again.</small></p>';
 	?>
