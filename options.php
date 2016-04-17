@@ -24,19 +24,19 @@ function optionsframework_options() {
 
 	// Background Defaults
 	$body_background_defaults = array(
-	'color' => '#f5f5f5',
-	'repeat' => 'repeat',
-	'image' => get_stylesheet_directory_uri() . '/images/branding/login-back.png',
-	'position' => 'top center',
-	'attachment'=>'scroll');
+	"color" => "#f5f5f5",
+	"repeat" => "repeat",
+	"image" => get_stylesheet_directory_uri() . "/images/branding/login-back.png",
+	"position" => "top center",
+	"attachment"=>"scroll");
 
 	// Dashboard Widget amount selector
-	$widget_amount = array("1" => "1","2" => "2","3" => "3","4" => "4","5" => "5","6" => "6","7" => "7","8" => "8","9" => "9","10" => "10");
+	$widget_amount = array( "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "10" => "10" );
 
 	// Dashboard Widget Yes or No selector
 	$widget_yes_no = array("1" => "Yes","0" => "No");
 	// Dashboard Widget Yes or No selector
-	$widget_feed_url = array( home_url('/feed')  => "COLORALE", "http://www.colorale.com/feed" => "Colorale");
+	$widget_feed_url = array( home_url('/feed')  => get_bloginfo('site_name'), "http://www.colorale.com/feed/" => "Colorale");
 
 	// If using image radio buttons, define a directory path
 	$imagepath =  get_stylesheet_directory_uri() . '/images/';
