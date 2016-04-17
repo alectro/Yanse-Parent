@@ -43,7 +43,7 @@
 
 </head>
 
-<body <?php body_class('antialiased'); ?> style='background:<?php $workscolor = rwmb_meta("mb_color"); if (isset($workscolor[0])) { echo __($workscolor, 'yanse'); } ?>'>
+<body <?php body_class('antialiased'); ?>>
 
 <header class="contain-to-grid clearfix">
 
@@ -51,7 +51,7 @@
 	  <button class="menu-icon" type="button" data-toggle></button>
 	  <div class="title-bar-title">
 			<a href="<?php echo home_url(''); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home">
-				<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo_mobile'); ?>" width="<?php echo of_get_option('main_logo_width', 'no entry'); ?>" height="<?php echo of_get_option('main_logo_heigth', 'no entry'); ?>" />
+				<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo get_stylesheet_directory_uri() . '/images/branding/logo-mobile.png'?>" width="100" height="38" />
 			</a>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 				<li role="menuitem" class="divider"></li>
 				<li  aria-label="Home" aria-expanded="false" aria-haspopup="true" role="menuitem" id="menu-item-0" class="menu-item menu-item-main-menu hide-for-small-only">
 					<a href="<?php echo home_url(''); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>&#58; <?php bloginfo( 'description' ); ?>" rel="home">
-						<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo of_get_option('main_logo'); ?>" width="<?php echo of_get_option('main_logo_width', 'no entry'); ?>" height="<?php echo of_get_option('main_logo_heigth', 'no entry'); ?>" />
+						<img alt="<?php bloginfo( 'name' ); ?>" src="<?php echo get_stylesheet_directory_uri() . '/images/branding/logo.png'?>" width="100" height="38" />
 					</a>
 				</li>
 
