@@ -3009,7 +3009,7 @@ kbd {
   border-radius: 0;
   padding: 0.4em 0.5em;
   margin: 0 0 1rem 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background-color: #2199e8;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
@@ -3018,11 +3018,11 @@ kbd {
     background-color: #1583cc;
     color: #fefefe; }
   .button.tiny {
-    font-size: 0.75rem; }
+    font-size: 0.6rem; }
   .button.small {
-    font-size: 0.9rem; }
+    font-size: 0.75rem; }
   .button.large {
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .button.expanded {
     display: block;
     width: 100%;
@@ -3433,16 +3433,16 @@ select {
     clear: both; }
   .button-group .button {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
     float: left; }
     .button-group .button:not(:last-child) {
       border-right: 1px solid #fefefe; }
   .button-group.tiny .button {
-    font-size: 0.75rem; }
+    font-size: 0.6rem; }
   .button-group.small .button {
-    font-size: 0.9rem; }
+    font-size: 0.75rem; }
   .button-group.large .button {
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .button-group.expanded {
     margin-right: -1px; }
     .button-group.expanded::before, .button-group.expanded::after {
