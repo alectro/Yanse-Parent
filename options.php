@@ -145,6 +145,11 @@ function optionsframework_options() {
 						"class" => "small grouped",
 						"type" => "text");
 
+	$options[] = array( "name" => "Pinterest",
+						"id" => "pinterest_url",
+						"class" => "small grouped",
+						"type" => "text");
+
 	$options[] = array( "name" => "MailChimp",
 						"id" => "mailchimp_url",
 						"class" => "small grouped",
@@ -191,7 +196,7 @@ function optionsframework_options() {
 						"type" => "text");
 
 	$options[] = array( "name" => "WeChat",
-						"id" => "weixin_url",
+						"id" => "wechat_url",
 						"desc" => "Upload your QR code here.",
 						"class" => "small grouped",
 						"type" => "upload");
