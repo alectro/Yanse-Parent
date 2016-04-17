@@ -1,28 +1,21 @@
 <?php
 
-//require_once('lib/clean.php');
+require_once('lib/breadcrumbs.php');
 
 require_once('lib/enqueue-scripts.php');
 
 require_once('lib/enqueue-style.php');
 
-//require_once('lib/foundation.php');
-
-require_once('lib/breadcrumbs.php');
-
 require_once('lib/menu.php');
+
+require get_template_directory() . '/lib/admin/meta-box/meta-box.php'; // Path to the plugin's main file
+require_once('lib/metaboxes.php'); //Copy again on CHild Theme
+
+require_once('lib/seo.php');
 
 require_once('lib/theme-options.php');
 
-require get_template_directory() . '/lib/admin/meta-box/meta-box.php'; // Path to the plugin's main file
-
-require_once('lib/metaboxes.php'); //Copy again on CHild Theme
-
-require_once('lib/cpt.php');
-
 require_once('lib/welcome.php');
-
-require_once('lib/seo.php');
 
 require_once('lib/wysiwyg.php');
 
