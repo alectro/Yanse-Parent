@@ -8,12 +8,6 @@ require_once('lib/enqueue-style.php');
 
 require_once('lib/menu.php');
 
-//require_once('lib/seo.php');
-
-//require_once('lib/theme-options.php');
-
-require_once('lib/welcome.php');
-
 require_once('lib/wysiwyg.php');
 
 /**********************
@@ -54,11 +48,6 @@ function yanse_theme_support() {	// Change names for your convinience
   // Post Thumbnails
 
   add_theme_support('post-thumbnails');
-  // set_post_thumbnail_size(150, 150, false);
-  add_image_size( 'thumb-large', 1024, 99999);
-  add_image_size( 'thumb-medium', 768, 99999);
-  add_image_size( 'thumb-small', 320, 9999);
-
 
   //	Post Formats
   add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video' , 'audio', 'chat' ) );
