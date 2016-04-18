@@ -1,28 +1,201 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Yanse\n"
-"POT-Creation-Date: 2016-04-17 17:39+0800\n"
-"PO-Revision-Date: 2016-04-17 17:39+0800\n"
+"POT-Creation-Date: 2016-04-18 14:15+0800\n"
+"PO-Revision-Date: 2016-04-18 14:15+0800\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: colorale <alectro@gmail.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.7\n"
-"X-Poedit-Basepath: ..\n"
+"X-Poedit-Basepath: ../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: dev\n"
-"X-Poedit-SearchPathExcluded-1: lib/admin\n"
-"X-Poedit-SearchPathExcluded-2: foundation/bower_components\n"
+"X-Poedit-SearchPath-0: yanse\n"
+"X-Poedit-SearchPath-1: yanse-child\n"
+"X-Poedit-SearchPathExcluded-0: yanse/dev\n"
+"X-Poedit-SearchPathExcluded-1: yanse/lib/admin\n"
+"X-Poedit-SearchPathExcluded-2: yanse/foundation/bower_components\n"
+"X-Poedit-SearchPathExcluded-3: yanse-child/dev\n"
+"X-Poedit-SearchPathExcluded-4: yanse-child/foundation\n"
+"X-Poedit-SearchPathExcluded-5: yanse-child/lib\n"
 
-#: 404.php:10
+#: yanse-child/content-careers-single.php:27
+msgid "Job ID: "
+msgstr "ID del trabajo: "
+
+#: yanse-child/content-careers-single.php:31
+msgid "Date: "
+msgstr "Fecha:"
+
+#: yanse-child/content-careers-single.php:37
+msgid "Location: "
+msgstr "Ubicación: "
+
+#: yanse-child/content-careers-single.php:46
+msgid "Period: "
+msgstr "Período: "
+
+#: yanse-child/content-careers-single.php:57
+msgid "Type: "
+msgstr "Tipo: "
+
+#: yanse-child/content-careers-single.php:72
+msgid "Languages: "
+msgstr "Idiomas: "
+
+#: yanse-child/content-careers-single.php:72
+#: yanse-child/content-careers-single.php:84
+#: yanse-child/content-works-single.php:49
+#: yanse-child/content-works-single.php:59
+msgid ", "
+msgstr ", "
+
+#: yanse-child/content-careers-single.php:84
+msgid "Education Level: "
+msgstr "Nivel de estudios: "
+
+#: yanse-child/content-careers-single.php:93
+msgid "Open Positions: "
+msgstr "Vacantes: "
+
+#: yanse-child/content-careers-single.php:99
+msgid "<h3>Job Description:</h3> "
+msgstr "<h3>Descripión del Trabajo:</h3> "
+
+#: yanse-child/content-careers-single.php:115
+msgid "Requirements:"
+msgstr "Requerimientos: "
+
+#: yanse-child/content-careers-single.php:126
+msgid "Skills: "
+msgstr "Destrezas: "
+
+#: yanse-child/content-careers-single.php:134
+msgid "Apply for "
+msgstr "Aplicar para "
+
+#: yanse-child/content-careers-single.php:135
+#: yanse-child/content-careers-single.php:146
+msgid "Apply"
+msgstr "Aplicar"
+
+#: yanse-child/content-careers.php:43
+msgid "Open positions"
+msgstr "Vacantes"
+
+#: yanse-child/footer.php:27
+#, php-format
+msgid "Subscribe to %s feed"
+msgstr "Suscribirse al feed de %s"
+
+#: yanse-child/footer.php:36
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "Seguir a %s en Twitter"
+
+#: yanse-child/footer.php:45
+#, php-format
+msgid "Follow %s on Facebook"
+msgstr "Seguir a %s en Facebook"
+
+#: yanse-child/footer.php:54
+#, php-format
+msgid "Follow %s on Google+"
+msgstr "Seguir a %s en Google+"
+
+#: yanse-child/footer.php:63
+#, php-format
+msgid "Friend %s on WeChat"
+msgstr "Conectar con %s en WeChat"
+
+#: yanse-child/footer.php:71
+#, php-format
+msgid "Follow %s on Weibo"
+msgstr "Seguir a %s en Weibo"
+
+#: yanse-child/footer.php:80
+#, php-format
+msgid "Follow %s on Douban"
+msgstr "Seguir a %s en Douban"
+
+#: yanse-child/footer.php:89
+#, php-format
+msgid "Subscribe to %s on MailChimp"
+msgstr "Suscribirse a la lista de mensajes de %s MailChimp"
+
+#: yanse-child/footer.php:98
+#, php-format
+msgid "Connect with %s on LinkedIn"
+msgstr "Conectar con %s en LinkedIn"
+
+#: yanse-child/footer.php:107
+#, php-format
+msgid "Follow %s on Behance"
+msgstr "Seguir a %s en Behance"
+
+#: yanse-child/footer.php:117
+#, php-format
+msgid "Follow %s on Dribbble"
+msgstr "Seguir a %s en Dribbble"
+
+#: yanse-child/footer.php:126
+#, php-format
+msgid "Follow %s on Pinterest"
+msgstr "Seguir a %s en Pinterest"
+
+#: yanse-child/footer.php:135
+#, php-format
+msgid "Follow %s on Instagram"
+msgstr "Seguir a %s en Instagram"
+
+#: yanse-child/footer.php:144
+#, php-format
+msgid "Follow %s on Flickr"
+msgstr "Seguir a %s en Flickr"
+
+#: yanse-child/footer.php:153
+#, php-format
+msgid "Follow %s on 500px"
+msgstr "Seguir a %s en 500px"
+
+#: yanse-child/footer.php:162
+#, php-format
+msgid "Follow %s on Github"
+msgstr "Seguir a %s en Github"
+
+#: yanse-child/footer.php:171
+#, php-format
+msgid "Follow %s on Bitbucket"
+msgstr "Seguir a %s en Bitbucket"
+
+#: yanse-child/footer.php:180
+#, php-format
+msgid "Follow %s on Stackoverflow"
+msgstr "Seguir a %s en Stackoverflow"
+
+#: yanse-child/footer.php:189
+#, php-format
+msgid "Follow %s on Youtube"
+msgstr "Seguir a %s en Youtube"
+
+#: yanse-child/footer.php:198
+#, php-format
+msgid "Follow %s on Vimeo"
+msgstr "Seguir a %s en Vimeo"
+
+#: yanse-child/footer.php:207
+#, php-format
+msgid "Follow %s on Youku"
+msgstr "Seguir a %s en Youku"
+
+#: yanse/404.php:10
 msgid "File Not Found"
 msgstr "Archivo no encontrado"
 
-#: 404.php:16 index.php:45
+#: yanse/404.php:16 yanse/index.php:45
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -30,543 +203,229 @@ msgstr ""
 "Parece que no podemos encontrar lo que busca. Quizás buscar podría ser de "
 "ayuda."
 
-#: archive.php:13
+#: yanse/archive.php:13
 #, php-format
 msgid "Daily Archives: %s"
 msgstr "Archivos diarios: %s"
 
-#: archive.php:15
+#: yanse/archive.php:15
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr "Archivos mensuales: %s"
 
-#: archive.php:17
+#: yanse/archive.php:17
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr "Archivos anuales: %s"
 
-#: archive.php:19
+#: yanse/archive.php:19
 msgid "Archives"
 msgstr "Archivos"
 
-#: archive.php:39
+#: yanse/archive.php:39
 msgid "&larr; Older posts"
 msgstr "&larr; Posts antiguos"
 
-#: archive.php:40
+#: yanse/archive.php:40
 msgid "Newer posts &rarr;"
 msgstr "Posts nuevos &rarr;"
 
-#: comments.php:8
+#: yanse/comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr "<cite class=\"fn\">%s</cite>"
 
-#: comments.php:9
+#: yanse/comments.php:9
 #, php-format
 msgid "%1$s"
 msgstr "%1$s"
 
-#: comments.php:10
+#: yanse/comments.php:10
 msgid "(Edit)"
 msgstr "(Editar)"
 
-#: comments.php:16
+#: yanse/comments.php:16
 msgid "Your comment is awaiting moderation."
 msgstr "Su comentario está esperando moderación."
 
-#: comments.php:31
+#: yanse/comments.php:31
 msgid "Please do not load this page directly. Thanks!"
 msgstr "Por favor no carge esta página directamente. ¡Gracias!"
 
-#: comments.php:36
+#: yanse/comments.php:36
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "Éste artículo está protegido por contraseña. Introduzca la contraseña para "
 "ver los comentarios."
 
-#: comments.php:46
+#: yanse/comments.php:46
 msgid "No Responses to"
 msgstr "Sin respuestas para"
 
-#: comments.php:46
+#: yanse/comments.php:46
 msgid "One Response to"
 msgstr "Una respuesta a"
 
-#: comments.php:46
+#: yanse/comments.php:46
 msgid "% Responses to"
 msgstr "% Respuestas para"
 
-#: comments.php:53
+#: yanse/comments.php:53
 msgid "&larr; Older comments"
 msgstr "&larr; Comentarios antiguos"
 
-#: comments.php:54
+#: yanse/comments.php:54
 msgid "Newer comments &rarr;"
 msgstr "Comentarios nuevos &rarr;"
 
-#: comments.php:63
+#: yanse/comments.php:63
 msgid "Comments are closed."
 msgstr "COmentarios cerrados."
 
-#: comments.php:70
+#: yanse/comments.php:70
 msgid "Leave a Reply"
 msgstr "Deja un comentario"
 
-#: comments.php:70
+#: yanse/comments.php:70
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Dejar una respuesta a %s"
 
-#: comments.php:73
+#: yanse/comments.php:73
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Usted debe estar <a href=\"%s\">logueado</a> para comentar."
 
-#: comments.php:77
+#: yanse/comments.php:77
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
 msgstr "Logueado como <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
-#: comments.php:77
+#: yanse/comments.php:77
 msgid "Log out of this account"
 msgstr "Salir de ësta cuenta"
 
-#: comments.php:77
+#: yanse/comments.php:77
 msgid "Log out &raquo;"
 msgstr "Salir &raquo;"
 
-#: comments.php:80 content-contact.php:34
+#: yanse/comments.php:80 yanse/content-contact.php:34
 msgid "Name"
 msgstr "Nombre"
 
-#: comments.php:80 comments.php:84
+#: yanse/comments.php:80 yanse/comments.php:84
 msgid " (required)"
 msgstr " (campo requerido)"
 
-#: comments.php:84
+#: yanse/comments.php:84
 msgid "Email (will not be published)"
 msgstr "Email (no será publicado)"
 
-#: comments.php:88
+#: yanse/comments.php:88
 msgid "Website"
 msgstr "Website"
 
-#: comments.php:93
+#: yanse/comments.php:93
 msgid "Comment"
 msgstr "Comentario"
 
-#: comments.php:96
+#: yanse/comments.php:96
 msgid "You can use these tags:"
 msgstr "Puede utilizar éstas etiquetas:"
 
-#: comments.php:97
+#: yanse/comments.php:97
 msgid "Submit Comment"
 msgstr "Enviar comentario"
 
-#: content-careers-single.php:27
-msgid "Job ID: "
-msgstr "ID del trabajo: "
-
-#: content-careers-single.php:31
-msgid "Date: "
-msgstr "Fecha:"
-
-#: content-careers-single.php:37
-msgid "Location: "
-msgstr "Ubicación: "
-
-#: content-careers-single.php:46
-msgid "Period: "
-msgstr "Período: "
-
-#: content-careers-single.php:57
-msgid "Type: "
-msgstr "Tipo: "
-
-#: content-careers-single.php:72
-msgid "Languages: "
-msgstr "Idiomas: "
-
-#: content-careers-single.php:72 content-careers-single.php:84
-#: content-works-single.php:49 content-works-single.php:59
-msgid ", "
-msgstr ", "
-
-#: content-careers-single.php:84
-msgid "Education Level: "
-msgstr "Nivel de estudios: "
-
-#: content-careers-single.php:93
-msgid "Open Positions: "
-msgstr "Vacantes: "
-
-#: content-careers-single.php:99
-msgid "<h3>Job Description:</h3> "
-msgstr "<h3>Descripión del Trabajo:</h3> "
-
-#: content-careers-single.php:115
-msgid "Requirements:"
-msgstr "Requerimientos: "
-
-#: content-careers-single.php:126
-msgid "Skills: "
-msgstr "Destrezas: "
-
-#: content-careers-single.php:134
-msgid "Apply for "
-msgstr "Aplicar para "
-
-#: content-careers-single.php:135 content-careers-single.php:146
-msgid "Apply"
-msgstr "Aplicar"
-
-#: content-careers.php:43
-msgid "Open positions"
-msgstr "Vacantes"
-
-#: content-contact.php:42
+#: yanse/content-contact.php:42
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: content-contact.php:50
+#: yanse/content-contact.php:50
 msgid "Message"
 msgstr "Mensaje"
 
-#: content-contact.php:58
+#: yanse/content-contact.php:58
 msgid "Send message"
 msgstr "Enviar mensaje"
 
-#: content-login.php:28
+#: yanse/content-login.php:28
 msgid "Welcome "
 msgstr "Bienvenido"
 
-#: content-login.php:28
+#: yanse/content-login.php:28
 msgid "Profile"
 msgstr "Perfil"
 
-#: content-login.php:28
+#: yanse/content-login.php:28
 msgid "Logout"
 msgstr "Salir"
 
-#: content-login.php:40
+#: yanse/content-login.php:40
 msgid "Username"
 msgstr "Usuario"
 
-#: content-login.php:43
+#: yanse/content-login.php:43
 msgid "Password"
 msgstr "Contraseña"
 
-#: content-login.php:46
+#: yanse/content-login.php:46
 msgid "Remember Me"
 msgstr "Recordarme"
 
-#: content-login.php:50
+#: yanse/content-login.php:50
 msgid "Lost your password?"
 msgstr "¿Perdió su contraseña?"
 
-#: content-login.php:54
+#: yanse/content-login.php:54
 msgid "Log In"
 msgstr "Acceder"
 
-#: content-login.php:65 content-page.php:19 content-single.php:22
-#: post-aside.php:25 post-audio.php:25 post-chat.php:25 post-gallery.php:25
-#: post-image.php:25 post-link.php:23 post-quote.php:24 post-status.php:25
-#: post-video.php:25
+#: yanse/content-login.php:65 yanse/content-page.php:19
+#: yanse/content-single.php:22 yanse/post-aside.php:25 yanse/post-audio.php:25
+#: yanse/post-chat.php:25 yanse/post-gallery.php:25 yanse/post-image.php:25
+#: yanse/post-link.php:23 yanse/post-quote.php:24 yanse/post-status.php:25
+#: yanse/post-video.php:25
 msgid "Pages:"
 msgstr "Páginas:"
 
-#: content-sitemap.php:33
+#: yanse/content-sitemap.php:33
 msgid "Pages"
 msgstr "Páginas"
 
-#: content-sitemap.php:42
+#: yanse/content-sitemap.php:42
 msgid "Works"
 msgstr "Trabajos"
 
-#: content-sitemap.php:58
+#: yanse/content-sitemap.php:58
 msgid "Blog"
 msgstr "Blog"
 
-#: footer.php:27 footer.php:90
-msgid "Subscribe to "
-msgstr "Subscribirse a "
-
-#: footer.php:36 footer.php:45 footer.php:54 footer.php:72 footer.php:81
-#: footer.php:108 footer.php:118 footer.php:127 footer.php:136 footer.php:145
-#: footer.php:154 footer.php:163 footer.php:172 footer.php:181 footer.php:190
-#: footer.php:199 footer.php:208
-msgid "Follow "
-msgstr "Seguir "
-
-#: footer.php:63
-msgid "Friend "
-msgstr "Amigo "
-
-#: footer.php:99
-msgid "Connect with "
-msgstr "Conectar con "
-
-#: functions.php:123
+#: yanse/functions.php:102
 msgid "Written by"
 msgstr "Escrito por"
 
-#: index.php:41
+#: yanse/index.php:41
 msgid "Nothing Found"
 msgstr "Nada encontrado"
 
-#: lib/cpt.php:19
-msgid "Work"
-msgstr "Trabajo"
-
-#: lib/cpt.php:20
-msgid "Parent Work:"
-msgstr "Trabajo padre:"
-
-#: lib/cpt.php:21
-msgid "All Works"
-msgstr "Todos los trabajos:"
-
-#: lib/cpt.php:22
-msgid "View Work"
-msgstr "Ver trabajo"
-
-#: lib/cpt.php:23
-msgid "Add New Work"
-msgstr "Añadir nuevo trabajo"
-
-#: lib/cpt.php:24
-msgid "New Work"
-msgstr "Nuevo trabajo"
-
-#: lib/cpt.php:25
-msgid "Edit Work"
-msgstr "Editar trabajo"
-
-#: lib/cpt.php:26
-msgid "Update Work"
-msgstr "Actualizar trabajo"
-
-#: lib/cpt.php:27
-msgid "Search works"
-msgstr "Búsqueda de trabajo"
-
-#: lib/cpt.php:28
-msgid "No works found"
-msgstr "Trabajos no encontrados"
-
-#: lib/cpt.php:29
-msgid "No works found in Trash"
-msgstr "Trabajos no encontrados en la papelera"
-
-#: lib/cpt.php:32
-msgid "work"
-msgstr "trabajo"
-
-#: lib/cpt.php:33
-msgid "Work information pages"
-msgstr "Páginas de información de carreras"
-
-#: lib/cpt.php:72
-msgid "Career"
-msgstr "Carrera"
-
-#: lib/cpt.php:73
-msgid "Parent Career:"
-msgstr "Trabajo padre:"
-
-#: lib/cpt.php:74
-msgid "All Careers"
-msgstr "Todos los trabajos"
-
-#: lib/cpt.php:75
-msgid "View Career"
-msgstr "Carrera"
-
-#: lib/cpt.php:76
-msgid "Add New Career"
-msgstr "Añadir nuevo trabajo"
-
-#: lib/cpt.php:77
-msgid "New Career"
-msgstr "Nuevo trabajo"
-
-#: lib/cpt.php:78
-msgid "Edit Career"
-msgstr "Editar trabajo"
-
-#: lib/cpt.php:79
-msgid "Update Career"
-msgstr "Actualizar trabajo"
-
-#: lib/cpt.php:80
-msgid "Search careers"
-msgstr "Buscar carreras"
-
-#: lib/cpt.php:81
-msgid "No careers found"
-msgstr "Carreras no encontradas"
-
-#: lib/cpt.php:82
-msgid "No careers found in Trash"
-msgstr "Carreras no encoontradas en la papelera"
-
-#: lib/cpt.php:85
-msgid "career"
-msgstr "Carrera"
-
-#: lib/cpt.php:86
-msgid "Carrer information pages"
-msgstr "Páginas de información de carreras"
-
-#: lib/foundation.php:16
-msgid "&laquo;"
-msgstr "&laquo;"
-
-#: lib/foundation.php:17
-msgid "&raquo;"
-msgstr "&raquo;"
-
-#: lib/foundation.php:36
-#, php-format
-msgid ""
-"Please assign a menu to the primary menu location under %1$s or %2$s the "
-"design."
-msgstr ""
-"Por favor asigne um menú a la ubicación principal de menúes %1$s o %2$s "
-"diseño."
-
-#: lib/foundation.php:37
-#, php-format
-msgid "<a href=\"%s\">Menus</a>"
-msgstr "<a href=\"%s\">Menus</a>"
-
-#: lib/foundation.php:40
-#, php-format
-msgid "<a href=\"%s\">Customize</a>"
-msgstr "<a href=\"%s\">Customizar</a>"
-
-#: lib/menu.php:13
+#: yanse/lib/menu.php:13
 msgid "Primary Navigation"
 msgstr "Navegación principal"
 
-#: lib/menu.php:14
+#: yanse/lib/menu.php:14
 msgid "Additional Navigation"
 msgstr "Navegación adicional"
 
-#: lib/menu.php:15
+#: yanse/lib/menu.php:15
 msgid "Footer Navigation"
 msgstr "Navegación pié de página"
 
-#: lib/metaboxes.php:80
-msgid "Beijing"
-msgstr "Beijing"
-
-#: lib/metaboxes.php:81
-msgid "China"
-msgstr "China"
-
-#: lib/metaboxes.php:82
-msgid "Uruguay"
-msgstr "Uruguay"
-
-#: lib/metaboxes.php:83
-msgid "Anywhere"
-msgstr "Cualquier sitio"
-
-#: lib/metaboxes.php:92
-msgid "Full-time"
-msgstr "Full-time"
-
-#: lib/metaboxes.php:93
-msgid "Part-time"
-msgstr "Part-time"
-
-#: lib/metaboxes.php:94
-msgid "Freelance"
-msgstr "Freelance"
-
-#: lib/metaboxes.php:103
-msgid "Chinese"
-msgstr "Chino Mandarin"
-
-#: lib/metaboxes.php:104
-msgid "English"
-msgstr "Inglés"
-
-#: lib/metaboxes.php:105
-msgid "Spanish"
-msgstr "Español"
-
-#: lib/metaboxes.php:106
-msgid "Portuguese"
-msgstr "Portugués"
-
-#: lib/metaboxes.php:116
-msgid "Undergraduate"
-msgstr "Pre graduado"
-
-#: lib/metaboxes.php:117
-msgid "College"
-msgstr "Universidad"
-
-#: lib/metaboxes.php:118
-msgid "Postgraduate"
-msgstr "pos graduado"
-
-#: lib/metaboxes.php:119
-msgid "Others"
-msgstr "Otros"
-
-#: lib/metaboxes.php:170
-msgid "Work details"
-msgstr "Detalles del trabajo"
-
-#: lib/metaboxes.php:171
-msgid "Some additional information about this project."
-msgstr "Información adicional del proyecto."
-
-#: lib/metaboxes.php:182
-msgid "Project's nature"
-msgstr "Naturaleza del proyecto"
-
-#: lib/metaboxes.php:187 lib/metaboxes.php:208
-msgid "Client"
-msgstr "Cliente"
-
-#: lib/metaboxes.php:188
-msgid "Pro bono"
-msgstr "Honorario"
-
-#: lib/metaboxes.php:189
-msgid "Personal"
-msgstr "Personal"
-
-#: lib/metaboxes.php:194
-msgid "Whether is a client's or a personal project."
-msgstr "Trabajo para clientes o personal."
-
-#: lib/metaboxes.php:226
-msgid "Country"
-msgstr "País"
-
-#: lib/metaboxes.php:244
-msgid "Year of creation"
-msgstr "Año de creación"
-
-#: lib/metaboxes.php:250
-msgid "yy"
-msgstr "yy"
-
-#: lib/metaboxes.php:265
-msgid "Color picker"
-msgstr "Selector de color"
-
-#: search.php:8
+#: yanse/search.php:8
 msgid "Search Results for"
 msgstr "Buscr resultados para"
 
-#: search.php:18
+#: yanse/search.php:18
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -574,6 +433,193 @@ msgstr ""
 "Lo sentimos, los resultados de búsqueda no han arrojado coincidencias. Por "
 "favor inténtelo nuevamente con palabras diferentes."
 
-#: searchform.php:4 searchform.php:7
+#: yanse/searchform.php:4 yanse/searchform.php:7
 msgid "Search"
 msgstr "Búsqueda"
+
+#~ msgid "Subscribe to "
+#~ msgstr "Subscribirse a "
+
+#~ msgid "Follow "
+#~ msgstr "Seguir "
+
+#~ msgid "Friend "
+#~ msgstr "Amigo "
+
+#~ msgid "Connect with "
+#~ msgstr "Conectar con "
+
+#~ msgid "Work"
+#~ msgstr "Trabajo"
+
+#~ msgid "Parent Work:"
+#~ msgstr "Trabajo padre:"
+
+#~ msgid "All Works"
+#~ msgstr "Todos los trabajos:"
+
+#~ msgid "View Work"
+#~ msgstr "Ver trabajo"
+
+#~ msgid "Add New Work"
+#~ msgstr "Añadir nuevo trabajo"
+
+#~ msgid "New Work"
+#~ msgstr "Nuevo trabajo"
+
+#~ msgid "Edit Work"
+#~ msgstr "Editar trabajo"
+
+#~ msgid "Update Work"
+#~ msgstr "Actualizar trabajo"
+
+#~ msgid "Search works"
+#~ msgstr "Búsqueda de trabajo"
+
+#~ msgid "No works found"
+#~ msgstr "Trabajos no encontrados"
+
+#~ msgid "No works found in Trash"
+#~ msgstr "Trabajos no encontrados en la papelera"
+
+#~ msgid "work"
+#~ msgstr "trabajo"
+
+#~ msgid "Work information pages"
+#~ msgstr "Páginas de información de carreras"
+
+#~ msgid "Career"
+#~ msgstr "Carrera"
+
+#~ msgid "Parent Career:"
+#~ msgstr "Trabajo padre:"
+
+#~ msgid "All Careers"
+#~ msgstr "Todos los trabajos"
+
+#~ msgid "View Career"
+#~ msgstr "Carrera"
+
+#~ msgid "Add New Career"
+#~ msgstr "Añadir nuevo trabajo"
+
+#~ msgid "New Career"
+#~ msgstr "Nuevo trabajo"
+
+#~ msgid "Edit Career"
+#~ msgstr "Editar trabajo"
+
+#~ msgid "Update Career"
+#~ msgstr "Actualizar trabajo"
+
+#~ msgid "Search careers"
+#~ msgstr "Buscar carreras"
+
+#~ msgid "No careers found"
+#~ msgstr "Carreras no encontradas"
+
+#~ msgid "No careers found in Trash"
+#~ msgstr "Carreras no encoontradas en la papelera"
+
+#~ msgid "career"
+#~ msgstr "Carrera"
+
+#~ msgid "Carrer information pages"
+#~ msgstr "Páginas de información de carreras"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid ""
+#~ "Please assign a menu to the primary menu location under %1$s or %2$s the "
+#~ "design."
+#~ msgstr ""
+#~ "Por favor asigne um menú a la ubicación principal de menúes %1$s o %2$s "
+#~ "diseño."
+
+#~ msgid "<a href=\"%s\">Menus</a>"
+#~ msgstr "<a href=\"%s\">Menus</a>"
+
+#~ msgid "<a href=\"%s\">Customize</a>"
+#~ msgstr "<a href=\"%s\">Customizar</a>"
+
+#~ msgid "Beijing"
+#~ msgstr "Beijing"
+
+#~ msgid "China"
+#~ msgstr "China"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Anywhere"
+#~ msgstr "Cualquier sitio"
+
+#~ msgid "Full-time"
+#~ msgstr "Full-time"
+
+#~ msgid "Part-time"
+#~ msgstr "Part-time"
+
+#~ msgid "Freelance"
+#~ msgstr "Freelance"
+
+#~ msgid "Chinese"
+#~ msgstr "Chino Mandarin"
+
+#~ msgid "English"
+#~ msgstr "Inglés"
+
+#~ msgid "Spanish"
+#~ msgstr "Español"
+
+#~ msgid "Portuguese"
+#~ msgstr "Portugués"
+
+#~ msgid "Undergraduate"
+#~ msgstr "Pre graduado"
+
+#~ msgid "College"
+#~ msgstr "Universidad"
+
+#~ msgid "Postgraduate"
+#~ msgstr "pos graduado"
+
+#~ msgid "Others"
+#~ msgstr "Otros"
+
+#~ msgid "Work details"
+#~ msgstr "Detalles del trabajo"
+
+#~ msgid "Some additional information about this project."
+#~ msgstr "Información adicional del proyecto."
+
+#~ msgid "Project's nature"
+#~ msgstr "Naturaleza del proyecto"
+
+#~ msgid "Client"
+#~ msgstr "Cliente"
+
+#~ msgid "Pro bono"
+#~ msgstr "Honorario"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid "Whether is a client's or a personal project."
+#~ msgstr "Trabajo para clientes o personal."
+
+#~ msgid "Country"
+#~ msgstr "País"
+
+#~ msgid "Year of creation"
+#~ msgstr "Año de creación"
+
+#~ msgid "yy"
+#~ msgstr "yy"
+
+#~ msgid "Color picker"
+#~ msgstr "Selector de color"
