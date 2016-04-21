@@ -1,14 +1,10 @@
 <?php
 
-require_once('lib/breadcrumbs.php');
-
 require_once('lib/enqueue-scripts.php');
 
 require_once('lib/enqueue-style.php');
 
 require_once('lib/menu.php');
-
-require_once('lib/wysiwyg.php');
 
 /**********************
 Add theme supports
