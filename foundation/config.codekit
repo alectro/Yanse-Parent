@@ -81,6 +81,58 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/bower_components\/foundation-sites\/code-of-conduct.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/code-of-conduct.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/code-of-conduct.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/bower_components\/foundation-sites\/customizer\/complete.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/customizer\/complete.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/customizer\/complete-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/customizer\/essential.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/customizer\/essential.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/customizer\/essential-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/customizer\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/customizer\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/foundation-sites\/dist\/foundation-flex.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -157,9 +209,317 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/foundation-sites\/js\/foundation.abide.js": {
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.abide.js": {
 		"fileType": 64,
 		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.abide.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.abide.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.accordion.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.accordion.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.accordion.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.accordionMenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.accordionMenu.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.accordionMenu.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.core.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.core.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.drilldown.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.drilldown.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.drilldown.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.dropdown.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.dropdown.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.dropdown.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.dropdownMenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.dropdownMenu.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.dropdownMenu.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.equalizer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.equalizer.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.equalizer.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.interchange.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.interchange.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.interchange.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.magellan.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.magellan.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.magellan.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.offcanvas.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.offcanvas.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.offcanvas.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.orbit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.orbit.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.orbit.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.responsiveMenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.responsiveMenu.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.responsiveMenu.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.responsiveToggle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.responsiveToggle.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.responsiveToggle.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.reveal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.reveal.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.reveal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.slider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.slider.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.slider.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.sticky.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.sticky.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.sticky.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.tabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.tabs.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.tabs.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.toggler.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.toggler.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.toggler.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.tooltip.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.tooltip.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.tooltip.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.box.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.box.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.box.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.keyboard.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.keyboard.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.keyboard.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.mediaQuery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.mediaQuery.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.motion.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.motion.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.motion.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.nest.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.nest.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.nest.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.timerAndImageLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.timerAndImageLoader.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.timerAndImageLoader.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.touch.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.touch.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.touch.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.triggers.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/plugins\/foundation.util.triggers.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.triggers.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation-sites\/js\/foundation.abide.js": {
+		"fileType": 64,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.abide.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.abide.js",
@@ -170,7 +530,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.accordion.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.accordion.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.accordion.js",
@@ -181,7 +541,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.accordionMenu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.accordionMenu.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.accordionMenu.js",
@@ -192,7 +552,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.core.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.core.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.core.js",
@@ -203,7 +563,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.drilldown.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.drilldown.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.drilldown.js",
@@ -214,7 +574,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.dropdown.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.dropdown.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.dropdown.js",
@@ -225,7 +585,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.dropdownMenu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.dropdownMenu.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.dropdownMenu.js",
@@ -236,7 +596,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.equalizer.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.equalizer.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.equalizer.js",
@@ -247,7 +607,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.interchange.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.interchange.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.interchange.js",
@@ -258,7 +618,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.magellan.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.magellan.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.magellan.js",
@@ -269,7 +629,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.offcanvas.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.offcanvas.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.offcanvas.js",
@@ -280,7 +640,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.orbit.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.orbit.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.orbit.js",
@@ -291,7 +651,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.responsiveMenu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.responsiveMenu.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.responsiveMenu.js",
@@ -302,7 +662,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.responsiveToggle.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.responsiveToggle.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.responsiveToggle.js",
@@ -313,7 +673,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.reveal.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.reveal.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.reveal.js",
@@ -324,7 +684,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.slider.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.slider.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.slider.js",
@@ -335,7 +695,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.sticky.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.sticky.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.sticky.js",
@@ -346,7 +706,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.tabs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.tabs.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.tabs.js",
@@ -357,7 +717,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.toggler.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.toggler.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.toggler.js",
@@ -368,7 +728,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.tooltip.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.tooltip.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.tooltip.js",
@@ -379,7 +739,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.box.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.box.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.box.js",
@@ -390,7 +750,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.keyboard.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.keyboard.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.keyboard.js",
@@ -401,7 +761,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.mediaQuery.js",
@@ -412,7 +772,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.motion.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.motion.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.motion.js",
@@ -423,7 +783,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.nest.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.nest.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.nest.js",
@@ -434,7 +794,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.timerAndImageLoader.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.timerAndImageLoader.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.timerAndImageLoader.js",
@@ -445,7 +805,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.touch.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.touch.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.touch.js",
@@ -456,7 +816,7 @@
 		},
 	"\/bower_components\/foundation-sites\/js\/foundation.util.triggers.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.triggers.js",
 		"outputAbbreviatedPath": "\/bower_components\/js\/foundation.util.triggers.js",
@@ -2881,17 +3241,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/bower_components\/motion-ui\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/motion-ui\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/bower_components\/motion-ui\/dist\/motion-ui.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -3070,27 +3419,6 @@
 		"inputAbbreviatedPath": "\/bower_components\/motion-ui\/docs\/transitions.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/docs\/transitions.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/bower_components\/motion-ui\/docs\/wow.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/motion-ui\/docs\/wow.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/docs\/wow.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

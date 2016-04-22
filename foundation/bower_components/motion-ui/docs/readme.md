@@ -24,9 +24,5 @@ Using the JavaScript plugin to transition elements in and out.
 
 Customizing Motion UI.
 
-### [WOW.js](wow.md)
-
-Using Motion UI with WOW.js.
-
 
 
