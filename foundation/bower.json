@@ -23,7 +23,7 @@
   "private": true,
   "resolutions": {
     "motion-ui": "^1.2.2",
-    "what-input": "^2.1.0",
+    "what-input": "^4.0.4",
     "jquery": "^2.2.1",
     "foundation-sites": "^6.2.1"
   }
