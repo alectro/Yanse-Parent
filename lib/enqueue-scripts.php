@@ -8,10 +8,22 @@ function yanse_scripts()
   		wp_enqueue_script('jquery');
 
   		// Foundation
-  		wp_enqueue_script('foundation', get_stylesheet_directory_uri() . '/js/foundation.js', array('jquery'), '6.1.2', true);
+  		wp_enqueue_script('foundation', get_stylesheet_directory_uri() . '/js/foundation.min.js', array('jquery'), '6.3.0', true);
   		// app Foundation
-  		wp_enqueue_script('app', get_stylesheet_directory_uri() . '/js/app.js', array('jquery'), '1', true);
+  		wp_enqueue_script('app', get_stylesheet_directory_uri() . '/js/app.min.js', array('jquery'), '1', true);
     }
 }
 add_action( 'wp_print_scripts', 'yanse_scripts');
+
+
+/*function to add async to all scripts
+http://orbitingweb.com/blog/add-defer-async-attributes-to-scripts-in-wordpress/
+*/
+/*
+function js_async_attr($tag){
+ # Add async to all remaining scripts
+ return str_replace( ' src', ' async="async" src', $tag );
+}
+add_filter( 'script_loader_tag', 'js_async_attr', 10 );
+*/
 ?>
