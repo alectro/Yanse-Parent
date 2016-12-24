@@ -1,5 +1,5 @@
 # Yanse
-YANSE is a responsive WordPress starter Theme based on ZURB's Foundation 6.2   
+YANSE is a responsive WordPress starter Theme based on ZURB's Foundation 6.3   
 Yanse (颜色) is the romanization for color in mandarin Chinese.
 **Demo**: http://yanse.colorale.com
 
