@@ -13,7 +13,9 @@ function yanse_scripts()
   		wp_enqueue_script('app', get_stylesheet_directory_uri() . '/js/app.min.js', array('jquery'), '1', true);
     }
 }
-add_action( 'wp_print_scripts', 'yanse_scripts');
+add_action( 'wp_enqueue_scripts', 'yanse_scripts');
+
+
 
 
 /*function to add async to all scripts
