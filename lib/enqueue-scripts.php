@@ -15,8 +15,18 @@ function yanse_scripts()
 }
 add_action( 'wp_enqueue_scripts', 'yanse_scripts');
 
+/* async */
+function async_scripts( $tag, $handle, $src ) {
 
+    $async_scripts = array( 'jquery', 'app' );
 
+    if ( in_array( $handle, $async_scripts ) ) {
+        return '<script type="text/javascript" src="' . $src . '" async></script>' . "\n";
+    }
+
+    return $tag;
+}
+add_filter( 'script_loader_tag', 'async_scripts', 10, 3 );
 
 /*function to add async to all scripts
 http://orbitingweb.com/blog/add-defer-async-attributes-to-scripts-in-wordpress/
