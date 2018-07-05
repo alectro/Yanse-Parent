@@ -1,5 +1,30 @@
 # Changelog
 
+# 2.0.3 (23 June 2018)
+
+This version makes Motion UI compatible with Meteor > 1.4.1 by allowing Meteor to use newer versions of the `fourseven:scss` dependency. Motion UI stays compatible with Meteor v1.2.1 and above.
+
+## 📄  Changes
+* 🐛  #125 - Revise Meteor `fourseven:scss` compatibility to support Meteor>1.4.1 support (@ncoden)
+
+# 2.0.2 (13 June 2018)
+
+This version fixes an issue introduced in `v2.0.1` preventing Meteor build and update Meteor installation documentation. It is fully compatible with `v2.0.1` and do not introduce any API change.
+
+## 📄  Changes
+* 🐛  #121 - Revert "6059743 Unpin Meteor fourseven for a better Meteor compatibility" (@ncoden)
+* 📖  #120 - Improve standard and Meteor documentation and update Meteor installation instructions (@ncoden)
+
+# 2.0.1 (10 June 2018)
+
+This version fixes various issues with the Meteor `zurb:motion-ui` package. It is fully compatible with `v2.0.0` and do not introduce any API change.
+
+## 📄  Changes
+* 🐛  eaf0971 - Add missing source files to Meteor `package.js` (@ncoden)
+* 🐛  6059743 - Unpin Meteor fourseven for a better Meteor compatibility (@ncoden)
+* 💻  98a6f9c - Remove outdated Meteor lockfile (@ncoden)
+* 💻  9fdcbac - Update Lockfiles (@ncoden)
+
 # 2.0.0 (25 May 2018)
 
 We're happy to release Motion UI 2.0 with a better support of macOS Safari, API improvements, some bug fixes and various maintanance stuff. Warning: this release includes breaking changes, please read the migration notes below before upgrading.
