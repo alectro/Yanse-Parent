@@ -5177,33 +5177,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/what-input\/docs\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/docs\/index.html",
-		"oF": 0
-		},
-	"\/bower_components\/what-input\/docs\/scripts\/lte-IE8.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/docs\/scripts\/lte-IE8.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/what-input\/docs\/scripts\/what-input.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/docs\/scripts\/what-input.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/bower_components\/what-input\/Gulpfile.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5247,35 +5220,97 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/what-input\/src\/polyfills\/ie8\/EventListener.js": {
+	"\/bower_components\/what-input\/src\/images\/select-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/what-input\/src\/images\/select-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/what-input\/src\/markup\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/what-input\/src\/markup\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/what-input\/src\/scripts\/what-input.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/src\/polyfills\/ie8\/EventListener.js",
+		"oAP": "\/bower_components\/what-input\/src\/scripts\/what-input.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/what-input\/src\/polyfills\/ie8\/indexOf.js": {
-		"ft": 64,
+	"\/bower_components\/what-input\/src\/styles\/_html.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/src\/polyfills\/ie8\/indexOf.js",
+		"oA": 1,
+		"oAP": "\/bower_components\/what-input\/src\/styles\/_html.scss",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 3,
+		"uL": 1
 		},
-	"\/bower_components\/what-input\/src\/what-input.js": {
-		"ft": 64,
+	"\/bower_components\/what-input\/src\/styles\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/src\/what-input.js",
+		"oA": 1,
+		"oAP": "\/bower_components\/what-input\/src\/styles\/_layout.scss",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/what-input\/src\/styles\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/what-input\/src\/styles\/_mixins.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/what-input\/src\/styles\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/what-input\/src\/styles\/_variables.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/what-input\/src\/styles\/index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/what-input\/src\/styles\/index.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/bower_components\/what-input\/yarn.lock": {
 		"cB": 0,
