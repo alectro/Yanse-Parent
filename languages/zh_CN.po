@@ -1,247 +1,250 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Yanse\n"
 "POT-Creation-Date: 2016-04-18 11:36+0800\n"
-"PO-Revision-Date: 2016-04-12 22:26+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-07-29 22:34+0800\n"
 "Language-Team: Ale Urrutia <alectro@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ../..\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-KeywordsList: _e;_;__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: zh\n"
 "X-Poedit-SearchPath-0: yanse\n"
 "X-Poedit-SearchPath-1: yanse-child\n"
 "X-Poedit-SearchPathExcluded-0: yanse/foundation\n"
 
 #: 404.php:10
 msgid "File Not Found"
-msgstr ""
+msgstr "文件未找到"
 
 #: 404.php:16 index.php:45
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看来我们无法找到您所需要的东西。 也许搜索可以帮助。"
 
 #: archive.php:13
 #, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "每日档案：%s"
 
 #: archive.php:15
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "每月档案：%s"
 
 #: archive.php:17
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "年度档案：%s"
 
 #: archive.php:19
 msgid "Archives"
-msgstr ""
+msgstr "档案"
 
 #: archive.php:39
 msgid "&larr; Older posts"
-msgstr ""
+msgstr "＆larr; 以前的帖子"
 
 #: archive.php:40
 msgid "Newer posts &rarr;"
-msgstr ""
+msgstr "较新的帖子＆rarr;"
 
 #: comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
-msgstr ""
+msgstr "<cite class=\"fn\">%s</cite>"
 
 #: comments.php:9
 #, php-format
 msgid "%1$s"
-msgstr ""
+msgstr "%1$s"
 
 #: comments.php:10
 msgid "(Edit)"
-msgstr ""
+msgstr "(编辑)"
 
 #: comments.php:16
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "您的评论正在等待审核。"
 
 #: comments.php:31
 msgid "Please do not load this page directly. Thanks!"
-msgstr ""
+msgstr "请不要直接加载此页。谢谢!"
 
 #: comments.php:36
 msgid "This post is password protected. Enter the password to view comments."
-msgstr ""
+msgstr "这篇文章受密码保护。 请输入密码以查看评论。"
 
 #: comments.php:46
 msgid "No Responses to"
-msgstr ""
+msgstr "无评论"
 
 #: comments.php:46
 msgid "One Response to"
-msgstr ""
+msgstr "一个回复"
 
 #: comments.php:46
 msgid "% Responses to"
-msgstr ""
+msgstr "% 条评论"
 
 #: comments.php:53
 msgid "&larr; Older comments"
-msgstr ""
+msgstr "＆larr; 较早的评论"
 
 #: comments.php:54
 msgid "Newer comments &rarr;"
-msgstr ""
+msgstr "更新的评论＆rarr;"
 
 #: comments.php:63
 msgid "Comments are closed."
-msgstr ""
+msgstr "评论被关闭。"
 
 #: comments.php:70
 msgid "Leave a Reply"
-msgstr ""
+msgstr "发表评论"
 
 #: comments.php:70
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "回复给 %s"
 
 #: comments.php:73
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr ""
+msgstr "您必须<a href=\"%s\">登录</a>才能发表评论。"
 
 #: comments.php:77
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr ""
+msgstr "以 <a href=\"%s/wp-admin/profile.php\">%s</a>身份登录 ."
 
 #: comments.php:77
 msgid "Log out of this account"
-msgstr ""
+msgstr "注销此帐户"
 
 #: comments.php:77
 msgid "Log out &raquo;"
-msgstr ""
+msgstr "注销 &raquo;"
 
 #: comments.php:80 content-contact.php:34
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: comments.php:80 comments.php:84
 msgid " (required)"
-msgstr ""
+msgstr "（必需）"
 
 #: comments.php:84
 msgid "Email (will not be published)"
-msgstr ""
+msgstr "电子邮件（将不会公布）"
 
 #: comments.php:88
 msgid "Website"
-msgstr ""
+msgstr "网站"
 
 #: comments.php:93
 msgid "Comment"
-msgstr ""
+msgstr "评论"
 
 #: comments.php:96
 msgid "You can use these tags:"
-msgstr ""
+msgstr "您可以使用这些标签:"
 
 #: content-contact.php:42
 msgid "Email"
-msgstr ""
+msgstr "邮箱"
 
 #: content-contact.php:50
 msgid "Message"
-msgstr ""
+msgstr "信息"
 
 #: content-contact.php:58
 msgid "Send message"
-msgstr ""
+msgstr "发送消息"
 
 #: content-login.php:28
 msgid "Welcome "
-msgstr ""
+msgstr "欢迎 "
 
 #: content-login.php:28
 msgid "Profile"
-msgstr ""
+msgstr "个人资料"
 
 #: content-login.php:28
 msgid "Logout"
-msgstr ""
+msgstr "注销"
 
 #: content-login.php:40
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: content-login.php:43
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: content-login.php:46
 msgid "Remember Me"
-msgstr ""
+msgstr "记住我"
 
 #: content-login.php:50
 msgid "Lost your password?"
-msgstr ""
+msgstr "忘记密码？"
 
 #: content-login.php:54
 msgid "Log In"
-msgstr ""
+msgstr "登录"
 
 #: content-login.php:65 content-page.php:19 content-single.php:22
 #: post-aside.php:25 post-audio.php:25 post-chat.php:25 post-gallery.php:25
 #: post-image.php:25 post-link.php:23 post-quote.php:24 post-status.php:25
 #: post-video.php:25
 msgid "Pages:"
-msgstr ""
+msgstr "页面："
 
 #: content-sitemap.php:33
 msgid "Pages"
-msgstr ""
+msgstr "页面"
 
 #: content-sitemap.php:42
 msgid "Works"
-msgstr ""
+msgstr "工作"
 
 #: content-sitemap.php:58
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #: functions.php:102
 msgid "Written by"
-msgstr ""
+msgstr "作者"
 
 #: index.php:41
 msgid "Nothing Found"
-msgstr ""
+msgstr "什么都没找到"
 
 #: lib/menu.php:13
 msgid "Primary Navigation"
-msgstr ""
+msgstr "主导航"
 
 #: lib/menu.php:14
 msgid "Additional Navigation"
-msgstr ""
+msgstr "额外导航"
 
 #: lib/menu.php:15
 msgid "Footer Navigation"
-msgstr ""
+msgstr "页脚导航"
 
 #: search.php:8
 msgid "Search Results for"
-msgstr ""
+msgstr "搜索结果"
 
 #: search.php:18
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "对不起，没有匹配您的搜索条件。请用一些不同的关键字再试一次。"

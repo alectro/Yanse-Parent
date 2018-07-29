@@ -1,247 +1,259 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Yanse\n"
 "POT-Creation-Date: 2016-04-18 11:36+0800\n"
-"PO-Revision-Date: 2016-04-12 22:26+0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-07-29 22:33+0800\n"
 "Language-Team: Ale Urrutia <alectro@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
 "X-Poedit-KeywordsList: _e;_;__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: de\n"
 "X-Poedit-SearchPath-0: yanse\n"
 "X-Poedit-SearchPath-1: yanse-child\n"
 "X-Poedit-SearchPathExcluded-0: yanse/foundation\n"
 
 #: 404.php:10
 msgid "File Not Found"
-msgstr ""
+msgstr "Seite nicht gefunden"
 
 #: 404.php:16 index.php:45
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
+"Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann "
+"die Suche helfen."
 
 #: archive.php:13
 #, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Tagesarchiv: %s"
 
 #: archive.php:15
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Monatsarchiv: %s"
 
 #: archive.php:17
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Jahresarchiv: %s"
 
 #: archive.php:19
 msgid "Archives"
-msgstr ""
+msgstr "Archive"
 
 #: archive.php:39
 msgid "&larr; Older posts"
-msgstr ""
+msgstr "&larr; Ältere Beiträge"
 
 #: archive.php:40
 msgid "Newer posts &rarr;"
-msgstr ""
+msgstr "Neuere Beiträge &rarr;"
 
 #: comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
-msgstr ""
+msgstr "<cite class=\"fn\">%s</cite>"
 
 #: comments.php:9
 #, php-format
 msgid "%1$s"
-msgstr ""
+msgstr "%1$s"
 
 #: comments.php:10
 msgid "(Edit)"
-msgstr ""
+msgstr "(Bearbeiten)"
 
 #: comments.php:16
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ihr Kommentar wartet auf Moderation."
 
 #: comments.php:31
 msgid "Please do not load this page directly. Thanks!"
-msgstr ""
+msgstr "Bitte lade diese Seite nicht direkt. Danke!"
 
 #: comments.php:36
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Um die Kommentare zu sehen, müssen "
+"Sie das Passwort eingeben."
 
 #: comments.php:46
 msgid "No Responses to"
-msgstr ""
+msgstr "Keine Antwort auf"
 
 #: comments.php:46
 msgid "One Response to"
-msgstr ""
+msgstr "Eine Antwort auf"
 
 #: comments.php:46
 msgid "% Responses to"
-msgstr ""
+msgstr "% Antworten auf"
 
 #: comments.php:53
 msgid "&larr; Older comments"
-msgstr ""
+msgstr "&larr; Ältere Kommentare"
 
 #: comments.php:54
 msgid "Newer comments &rarr;"
-msgstr ""
+msgstr "Neuere Kommentare &rarr;"
 
 #: comments.php:63
 msgid "Comments are closed."
-msgstr ""
+msgstr "Kommentare sind geschlossen."
 
 #: comments.php:70
 msgid "Leave a Reply"
-msgstr ""
+msgstr "Hinterlasse einen Kommentar"
 
 #: comments.php:70
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "Hinterlasse eine Antwort für %s"
 
 #: comments.php:73
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
+"Sie müssen <a href=\"%s\">angemeldet</a> sein, um einen Kommentar "
+"abzugeben."
 
 #: comments.php:77
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr ""
+msgstr "Angemeldet als <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #: comments.php:77
 msgid "Log out of this account"
-msgstr ""
+msgstr "Aus diesem Account ausloggen"
 
 #: comments.php:77
 msgid "Log out &raquo;"
-msgstr ""
+msgstr "Abmelden &raquo;"
 
 #: comments.php:80 content-contact.php:34
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: comments.php:80 comments.php:84
 msgid " (required)"
-msgstr ""
+msgstr " (erforderlich)"
 
 #: comments.php:84
 msgid "Email (will not be published)"
-msgstr ""
+msgstr "E-Mail (wird nicht veröffentlicht)"
 
 #: comments.php:88
 msgid "Website"
-msgstr ""
+msgstr "Webseite"
 
 #: comments.php:93
 msgid "Comment"
-msgstr ""
+msgstr "Kommentar"
 
 #: comments.php:96
 msgid "You can use these tags:"
-msgstr ""
+msgstr "Sie können folgende Tags benutzen:"
 
 #: content-contact.php:42
 msgid "Email"
-msgstr ""
+msgstr "E-Mail"
 
 #: content-contact.php:50
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: content-contact.php:58
 msgid "Send message"
-msgstr ""
+msgstr "Nachricht senden"
 
 #: content-login.php:28
 msgid "Welcome "
-msgstr ""
+msgstr "Willkommen "
 
 #: content-login.php:28
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: content-login.php:28
 msgid "Logout"
-msgstr ""
+msgstr "Abmelden"
 
 #: content-login.php:40
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: content-login.php:43
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: content-login.php:46
 msgid "Remember Me"
-msgstr ""
+msgstr "Angemeldet bleiben"
 
 #: content-login.php:50
 msgid "Lost your password?"
-msgstr ""
+msgstr "Passwort vergessen?"
 
 #: content-login.php:54
 msgid "Log In"
-msgstr ""
+msgstr "Anmelden"
 
 #: content-login.php:65 content-page.php:19 content-single.php:22
 #: post-aside.php:25 post-audio.php:25 post-chat.php:25 post-gallery.php:25
 #: post-image.php:25 post-link.php:23 post-quote.php:24 post-status.php:25
 #: post-video.php:25
 msgid "Pages:"
-msgstr ""
+msgstr "Seiten:"
 
 #: content-sitemap.php:33
 msgid "Pages"
-msgstr ""
+msgstr "Seiten"
 
 #: content-sitemap.php:42
 msgid "Works"
-msgstr ""
+msgstr "Projekte"
 
 #: content-sitemap.php:58
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: functions.php:102
 msgid "Written by"
-msgstr ""
+msgstr "Geschrieben von"
 
 #: index.php:41
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nichts gefunden"
 
 #: lib/menu.php:13
 msgid "Primary Navigation"
-msgstr ""
+msgstr "Primäre Navigation"
 
 #: lib/menu.php:14
+#, fuzzy
 msgid "Additional Navigation"
-msgstr ""
+msgstr "Zusatznavigation"
 
 #: lib/menu.php:15
 msgid "Footer Navigation"
-msgstr ""
+msgstr "Footer-Navigation"
 
 #: search.php:8
 msgid "Search Results for"
-msgstr ""
+msgstr "Suchergebnisse für"
 
 #: search.php:18
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
+"Es tut uns leid. Ihre Sucher ergab keinen Treffer, Bitte versuchen Sie es "
+"mit einem anderen Begriff"
