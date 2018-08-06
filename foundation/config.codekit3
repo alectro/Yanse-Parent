@@ -5139,23 +5139,19 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/what-input\/bower.json": {
-		"ft": 524288,
+	"\/bower_components\/what-input\/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oAP": "\/bower_components\/what-input\/.editorconfig",
+		"oF": 0
 		},
-	"\/bower_components\/what-input\/dist\/lte-IE8.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"\/bower_components\/what-input\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/dist\/lte-IE8.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oAP": "\/bower_components\/what-input\/.gitignore",
+		"oF": 0
 		},
 	"\/bower_components\/what-input\/dist\/what-input.js": {
 		"ft": 64,
